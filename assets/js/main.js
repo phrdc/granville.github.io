@@ -20,11 +20,26 @@ document.addEventListener('DOMContentLoaded', () => {
   /**
    * Sticky header on scroll
    */
-  const selectHeader = document.querySelector('#header');
-  if (selectHeader) {
-    document.addEventListener('scroll', () => {
-      window.scrollY > 100 ? selectHeader.classList.add('sticked') : selectHeader.classList.remove('sticked');
-    });
+  // const selectHeader = document.querySelector('#header');
+  // if (selectHeader) {
+  //   document.addEventListener('scroll', () => {
+  //     window.scrollY > 100 ? selectHeader.classList.add('sticked') : selectHeader.classList.remove('sticked');
+  //   });
+  // }
+
+  window.onscroll = function() {myFunction()};
+
+  var header = document.getElementById("header");
+
+  var sticky = header.offsetTop;
+
+  function myFunction() {
+    if(window.pageYOffset > sticky){
+      header.classList.add("sticky");
+    }
+    else {
+      header.classList.remove("sticky");
+    }
   }
 
   /**

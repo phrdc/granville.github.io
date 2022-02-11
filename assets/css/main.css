@@ -192,6 +192,68 @@ section {
   }
 }
 /*--------------------------------------------------------------
+# Notification Bar
+--------------------------------------------------------------*/
+#notification-bar {
+  font-family: var(--font-default);
+  width: 100%;
+  margin: 0;
+  height: 30px;
+  display: table;
+  font-size: 17px;
+  padding: .33em .5em;
+  -webkit-font-smoothing: antialiased;
+  color: var(--color-secondary);
+  position: static;
+  background-color: var(--color-primary);
+}
+#notification-bar .regular {
+  height: 30px;
+  font-size: 14px;
+  padding: .2em .5em;
+}
+.nb-content-wrapper {
+  text-align: center;
+  text-align: center;
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+}
+.nb-content-wrapper p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.nb-text-wrapper {
+  margin-right: .67em;
+  display: inline-block;
+  line-height: 1.3;
+}
+.nb-text-wrapper .nb-headline-text {
+  font-size: 15px;
+  display: inline-block;
+  vertical-align: middle;
+  letter-spacing: 3px;
+  word-spacing: 5px;
+}
+.nb-close-wrapper {
+  display: table-cell;
+  width: 1.6em;
+}
+.nb-close-wrapper .icon-close i {
+  font-size: 14px;
+  top: 13px;
+  right: 15px;
+  width: 30px;
+  height: 15px;
+  color: #000;
+  cursor: pointer;
+  position: absolute;
+  text-align: center;
+  line-height: 15px;
+  z-index: 1000;
+  text-decoration: none;
+}
+/*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 .header {
@@ -219,9 +281,9 @@ section {
 }
 .header .btn-getstarted, .header .btn-getstarted:focus {
   font-size: 16px;
-  color: #f5c350;
+  color: var(--color-primary);
   background: white;
-  border: 2px solid #f5c350;
+  border: 2px solid var(--color-primary);;
   padding: 8px 23px;
   border-radius: 6px;
   transition: 0.3s;
@@ -229,7 +291,7 @@ section {
 }
 .header .btn-getstarted:hover, .header .btn-getstarted:focus:hover {
   color: var(--color-white);
-  background: #f5c350;
+  background: var(--color-primary);;
 }
 @media (max-width: 1279px) {
   .header .btn-getstarted, .header .btn-getstarted:focus {
@@ -237,6 +299,22 @@ section {
   }
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: var(--color-white);
+  border-bottom: 2px solid var(--color-primary);
+}
+
+.sticky .navbar .mobile-nav-toggle {
+  top: 22px;
+  visibility: visible;
+}
+.sticky .navbar .mobile-nav-bar {
+  top: 22px;
+  visibility:hidden;
+}
 /*--------------------------------------------------------------
 # Desktop Navigation 
 --------------------------------------------------------------*/
@@ -282,7 +360,7 @@ section {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #f5c350;
+    background-color: var(--color-primary);
     visibility: hidden;
     transition: all 0.3s ease-in-out 0s;
     transform: scaleX(0);
@@ -293,7 +371,7 @@ section {
     transform: scaleX(0.7);
   }
   .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-    color: #f5c350
+    color: var(--color-primary);
   }
   .navbar .dropdown a:hover:before, .navbar .dropdown:hover > a:before, .navbar .dropdown .active:before {
     visibility: hidden;
@@ -418,9 +496,10 @@ section {
     line-height: 0;
     transition: 0.5s;
     position: fixed;
-    top: 20px;
+    top: 60px;
     z-index: 9999;
     right: 20px;
+    visibility: hidden;
   }
   .mobile-nav-toggle.bi-x {
     color: var(--color-white);
@@ -451,7 +530,6 @@ section {
 #hero {
   width: 100%;
   height: 75vh;
-  margin: 82px 0 0px 0;
   background: url("../img/hero-bg.jpg") center center;
   background-size: cover;
   position: relative;
@@ -475,7 +553,7 @@ section {
   font-size: 100px;
   font-weight: bold;
   line-height: 110px;
-  color: #f6c963;
+  color: var(--color-primary);
   letter-spacing: 17px;
 }
 #hero h2 {
@@ -726,11 +804,11 @@ section {
 .featured-services .service-item1:hover {
   transform: translateY(-10px);
   box-shadow: 0px 0 60px 0 rgba(var(--color-secondary-rgb), 0.2);
-  border: 3px solid #f5c350;
+  border: 3px solid var(--color-primary);
   border-radius: 10px;
 }
 .featured-services .service-item1:hover h4 a {
-  color: #f5c350;
+  color: var(--color-primary);
 }
 /*--------------------------------------------------------------
 # About Section
@@ -787,7 +865,7 @@ section {
 .about .nav-link.active {
   color: #000;
   background: none;
-  border-bottom: 3px solid #f5c350;
+  border-bottom: 3px solid var(--color-primary);
 }
 @media (max-width: 575px) {
   .about .nav-link {
