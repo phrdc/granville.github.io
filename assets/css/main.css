@@ -929,6 +929,7 @@ section {
 
 .features .nav-tabs {
   border: 0;
+  justify-content: center;
 }
 .features .nav-link {
   border: 0;
