@@ -78,7 +78,7 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-xl-8">
-         <img src="assets/img/granville.png" width="90%">
+          <img src="assets/img/granville.png" width="90%">
         </div>
       </div>
     </div>
@@ -113,18 +113,44 @@
       <div class="container">
         <h2>What Our Project has:</h2>
 
-        <div class="row gy-4">
+        <div class="carousel-container">
+          <div class="mySlides animate">
+            <img src="https://wallpapershome.com/images/pages/pic_h/16239.jpg" alt="slide" />
+          </div>
 
+          <div class="mySlides animate">
+            <img src="https://wallpapershome.com/images/pages/pic_h/23525.jpg" alt="slide" />
+          </div>
+
+          <div class="mySlides animate">
+            <img src="https://wallpapershome.com/images/pages/pic_h/23277.jpg" alt="slide" />
+          </div>
+
+          <div class="mySlides animate">
+            <img src="https://wallpapershome.com/images/pages/pic_h/12596.jpg" alt="slide" />
+          </div>
+
+          <div class="mySlides animate">
+            <img src="https://wallpapershome.com/images/pages/pic_h/23419.jpg" alt="slide" />
+          </div>
+
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="prevSlide()">&#10094;</a>
+          <a class="next" onclick="nextSlide()">&#10095;</a>
+
+          <!-- The dots/circles -->
+          <div class="dots-container">
+            <span class="dots" onclick="currentSlide(1)"></span>
+            <span class="dots" onclick="currentSlide(2)"></span>
+            <span class="dots" onclick="currentSlide(3)"></span>
+            <span class="dots" onclick="currentSlide(4)"></span>
+            <span class="dots" onclick="currentSlide(5)"></span>
+          </div>
+        </div>
+
+        <div class="row gy-4" style="margin-top: 20px;">
           <div class="col-xl-4 col-md-12 d-flex" data-aos="zoom-out">
             <div class="service-item1 position-relative">
-              <!-- <div class="icon"><svg viewBox="0 0 297 297" style="height: 40px;">
-                    <g><path style="fill: #ffbc1f;" d="M275.575,115.95c-0.698-2.699-2.44-5.012-4.844-6.427L91.361,3.868c-1.675-0.987-3.513-1.457-5.326-1.457   c-3.602,0-7.108,1.853-9.068,5.18L24.139,97.274c-1.415,2.403-1.818,5.27-1.12,7.969c0.698,2.699,2.44,5.012,4.843,6.427   l179.37,105.656c1.676,0.986,3.513,1.457,5.326,1.457c3.602,0,7.109-1.852,9.069-5.181l52.828-89.684   C275.869,121.516,276.273,118.649,275.575,115.95z M208.769,170.073c-1.954,1.956-4.667,3.081-7.433,3.081   c-2.765,0-5.477-1.125-7.434-3.081c-1.956-1.955-3.08-4.668-3.08-7.433c0-2.766,1.124-5.479,3.08-7.434   c1.956-1.956,4.669-3.08,7.434-3.08c2.766,0,5.479,1.124,7.433,3.08c1.956,1.955,3.082,4.668,3.082,7.434   C211.852,165.405,210.726,168.118,208.769,170.073z"/>
-                      <path style="fill: #ffbc1f;" d="M15.577,64.166l8.152,4.803l28.281-48.013l-8.152-4.804c-2.402-1.416-5.269-1.816-7.969-1.119   c-2.699,0.697-5.012,2.439-6.426,4.843l-17.61,29.896c-1.415,2.402-1.818,5.269-1.12,7.969   C11.432,60.44,13.174,62.752,15.577,64.166z"/>
-                      <path style="fill: #ffbc1f;" d="M296.665,148.506c-0.698-2.699-2.44-5.012-4.843-6.426l-8.153-4.803l-45.891,77.908l8.152,4.803   c1.631,0.961,3.476,1.455,5.336,1.455c0.881,0,1.766-0.111,2.633-0.335c2.699-0.698,5.012-2.44,6.427-4.843l35.219-59.791   C296.961,154.072,297.363,151.205,296.665,148.506z"/>
-                      <path style="fill: #ffbc1f;" d="M159.81,284.075v-71.599c0-3.3-2.326-7.37-5.17-9.045l-45.384-26.733c-2.844-1.675-5.17-0.345-5.17,2.955v59.212H10.514   C4.708,238.865,0,243.573,0,249.38v34.695c0,5.807,4.708,10.514,10.514,10.514h138.783   C155.102,294.589,159.81,289.882,159.81,284.075z"/>
-                    </g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
-                    </svg>
-                  </div> -->
               <h4><a class="stretched-link">Reassuring Residence</a></h4>
               <p>In addition to the concrete perimeter fence and steel gate that hedge every home unit, a guardhouse
                 with 24-hour CCTV greets everyone at the entrance of the community for truly secure living. With quality
@@ -135,7 +161,6 @@
 
           <div class="col-xl-4 col-md-12 d-flex" data-aos="zoom-out" data-aos-delay="200">
             <div class="service-item2 position-relative">
-              <!-- <div class="icon"><i class="bi bi-bounding-box-circles icon"></i></div> -->
               <h4><a class="stretched-link">Well-rounded lifestyle</a></h4>
               <p>Sports-themed facilities including a swimming pool, long tennis court, basketball court, parks, and a
                 children’s playground make for healthy and leisurely living at the Granville. For celebrating momentous
@@ -146,7 +171,6 @@
 
           <div class="col-xl-4 col-md-12 d-flex" data-aos="zoom-out" data-aos-delay="400">
             <div class="service-item position-relative">
-              <!-- <div class="icon"><i class="bi bi-calendar4-week icon building"></i></div> -->
               <h4><a class="stretched-link">Settle in seamlessly</a></h4>
               <p>Move in to your new home with the least of worries. With water and electricity utilities among other
                 ready amenities including a paved and covered walkway and car park come with every house unit. Outside,
@@ -260,21 +284,30 @@
                 </ul>
                 <p>Additional Features:</p>
                 <ul class="row mobtab gy-4 d-flex">
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i class="bi bi-check-circle-fill"></i> Built-in closet on all bedrooms
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i
+                      class="bi bi-check-circle-fill"></i> Built-in closet on all bedrooms
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i class="bi bi-check-circle-fill"></i> Semi-finished Concrete perimeter fence
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i
+                      class="bi bi-check-circle-fill"></i> Semi-finished Concrete perimeter fence
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i class="bi bi-check-circle-fill"></i> Steel main gate and manhole
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> Steel main gate and manhole
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i class="bi bi-check-circle-fill"></i> Semi-landscape with paving blocks
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> Semi-landscape with paving blocks
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i class="bi bi-check-circle-fill"></i> Concrete flooring on the laundry area
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> Concrete flooring on the laundry area
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i class="bi bi-check-circle-fill"></i> Modified clothes hanger on a dry area
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> Modified clothes hanger on a dry area
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i class="bi bi-check-circle-fill"></i> With a concrete fence, steel vehicular gate, and pedestrian gate (Sedan Model Car Unit)
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> With a concrete fence, steel vehicular gate, and pedestrian
+                    gate (Sedan Model Car Unit)
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i class="bi bi-check-circle-fill"></i> With steel window grills
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> With steel window grills
                   </li>
                 </ul>
               </div>
@@ -296,7 +329,8 @@
               <div class="col-lg-8 order-2 order-lg-1">
                 <h3>Ken Model</h3>
                 <p class="fst-italic">
-                  A 4-room bungalow model unit that opens directly into the living room & kitchen area that will be easy access to outdoor spaces. It also has a spacious kitchen for those who love to cook. 
+                  A 4-room bungalow model unit that opens directly into the living room & kitchen area that will be easy
+                  access to outdoor spaces. It also has a spacious kitchen for those who love to cook.
                 </p>
                 <ul class="nav nav-tabs row gy-4 d-flex">
                   <li class="nav-item col-4 col-md-3 col-lg-3">
@@ -338,21 +372,30 @@
                 </ul>
                 <p>Additional Features:</p>
                 <ul class="row mobtab gy-4 d-flex">
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i class="bi bi-check-circle-fill"></i> Built-in closet on all bedrooms
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i
+                      class="bi bi-check-circle-fill"></i> Built-in closet on all bedrooms
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i class="bi bi-check-circle-fill"></i> Semi-finished Concrete perimeter fence
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i
+                      class="bi bi-check-circle-fill"></i> Semi-finished Concrete perimeter fence
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i class="bi bi-check-circle-fill"></i> Steel main gate and manhole
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> Steel main gate and manhole
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i class="bi bi-check-circle-fill"></i> Semi-landscape with paving blocks
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> Semi-landscape with paving blocks
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i class="bi bi-check-circle-fill"></i> Concrete flooring on the laundry area
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> Concrete flooring on the laundry area
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i class="bi bi-check-circle-fill"></i> Modified clothes hanger on a dry area
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> Modified clothes hanger on a dry area
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i class="bi bi-check-circle-fill"></i> With a concrete fence, steel vehicular gate, and pedestrian gate (Sedan Model Car Unit)
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> With a concrete fence, steel vehicular gate, and pedestrian
+                    gate (Sedan Model Car Unit)
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i class="bi bi-check-circle-fill"></i> With steel window grills
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> With steel window grills
                   </li>
                 </ul>
               </div>
@@ -373,7 +416,8 @@
               <div class="col-lg-8 order-2 order-lg-1">
                 <h3>Mike Model</h3>
                 <p class="fst-italic">
-                  A 3-room bungalow model unit where an open floor plan is maximized for efficiency and flow from room to room with minimal space wasted on hallways. Perfect for growing family and investment.
+                  A 3-room bungalow model unit where an open floor plan is maximized for efficiency and flow from room
+                  to room with minimal space wasted on hallways. Perfect for growing family and investment.
                 </p>
                 <ul class="nav nav-tabs row gy-4 d-flex">
                   <li class="nav-item col-4 col-md-3 col-lg-3">
@@ -415,21 +459,30 @@
                 </ul>
                 <p>Additional Features:</p>
                 <ul class="row mobtab gy-4 d-flex">
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i class="bi bi-check-circle-fill"></i> Built-in closet on all bedrooms
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i
+                      class="bi bi-check-circle-fill"></i> Built-in closet on all bedrooms
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i class="bi bi-check-circle-fill"></i> Semi-finished Concrete perimeter fence
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i
+                      class="bi bi-check-circle-fill"></i> Semi-finished Concrete perimeter fence
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i class="bi bi-check-circle-fill"></i> Steel main gate and manhole
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> Steel main gate and manhole
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i class="bi bi-check-circle-fill"></i> Semi-landscape with paving blocks
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> Semi-landscape with paving blocks
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i class="bi bi-check-circle-fill"></i> Concrete flooring on the laundry area
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> Concrete flooring on the laundry area
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i class="bi bi-check-circle-fill"></i> Modified clothes hanger on a dry area
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> Modified clothes hanger on a dry area
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i class="bi bi-check-circle-fill"></i> With a concrete fence, steel vehicular gate, and pedestrian gate (Sedan Model Car Unit)
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> With a concrete fence, steel vehicular gate, and pedestrian
+                    gate (Sedan Model Car Unit)
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i class="bi bi-check-circle-fill"></i> With steel window grills
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> With steel window grills
                   </li>
                 </ul>
               </div>
@@ -451,7 +504,8 @@
               <div class="col-lg-8 order-2 order-lg-1">
                 <h3>Mark Model</h3>
                 <p class="fst-italic">
-                  A 2 room bungalow house that gives you spacious for easy access from the living room to the dining room and into the kitchen. 
+                  A 2 room bungalow house that gives you spacious for easy access from the living room to the dining
+                  room and into the kitchen.
                 </p>
                 <ul class="nav nav-tabs row gy-4 d-flex">
                   <li class="nav-item col-4 col-md-3 col-lg-3">
@@ -493,21 +547,30 @@
                 </ul>
                 <p>Additional Features:</p>
                 <ul class="row mobtab gy-4 d-flex">
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i class="bi bi-check-circle-fill"></i> Built-in closet on all bedrooms
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i
+                      class="bi bi-check-circle-fill"></i> Built-in closet on all bedrooms
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i class="bi bi-check-circle-fill"></i> Semi-finished Concrete perimeter fence
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i
+                      class="bi bi-check-circle-fill"></i> Semi-finished Concrete perimeter fence
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i class="bi bi-check-circle-fill"></i> Steel main gate and manhole
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> Steel main gate and manhole
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i class="bi bi-check-circle-fill"></i> Semi-landscape with paving blocks
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> Semi-landscape with paving blocks
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i class="bi bi-check-circle-fill"></i> Concrete flooring on the laundry area
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> Concrete flooring on the laundry area
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i class="bi bi-check-circle-fill"></i> Modified clothes hanger on a dry area
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> Modified clothes hanger on a dry area
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i class="bi bi-check-circle-fill"></i> With a concrete fence, steel vehicular gate, and pedestrian gate (Sedan Model Car Unit)
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> With a concrete fence, steel vehicular gate, and pedestrian
+                    gate (Sedan Model Car Unit)
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i class="bi bi-check-circle-fill"></i> With steel window grills
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> With steel window grills
                   </li>
                 </ul>
               </div>
@@ -563,9 +626,11 @@
                 </ul>
                 <p>Additional Features:</p>
                 <ul class="row mobtab gy-4 d-flex">
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i class="bi bi-check-circle-fill"></i> Concrete flooring on the laundry area
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> Concrete flooring on the laundry area
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i class="bi bi-check-circle-fill"></i> With Semi-finished concrete fence and pedestrian gate
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> With Semi-finished concrete fence and pedestrian gate
                   </li>
                 </ul>
               </div>
@@ -593,7 +658,10 @@
 
         <div class="section-featuress">
           <h2>Granville III House Models</h2>
-          <p>Brought to life by the simplicity and quiet splendor of Modern Contemporary architecture, aesthetics and amenities that exhibit well-balanced living come together at the Granville III with four model houses: Cindy, Faye, Adrian, and Angelo. Granville III Subdivision is an artful use of warm colors, natural textures, and contemporary space design that suits clients' preferences in investing in their new Home.</p>
+          <p>Brought to life by the simplicity and quiet splendor of Modern Contemporary architecture, aesthetics and
+            amenities that exhibit well-balanced living come together at the Granville III with four model houses:
+            Cindy, Faye, Adrian, and Angelo. Granville III Subdivision is an artful use of warm colors, natural
+            textures, and contemporary space design that suits clients' preferences in investing in their new Home.</p>
         </div>
 
         <ul class="nav nav-tabs row gy-4 d-flex">
@@ -635,7 +703,8 @@
               <div class="col-lg-8 order-2 order-lg-1" data-aos="fade-right" data-aos-delay="400">
                 <h3>Cindy Model</h3>
                 <p class="fst-italic">
-                  A cost-effective two-storey concrete model unit with 3 bedrooms and 3 toilets and bath. Modern type model unit perfect for growing family.
+                  A cost-effective two-storey concrete model unit with 3 bedrooms and 3 toilets and bath. Modern type
+                  model unit perfect for growing family.
                 </p>
                 <ul class="nav nav-tabs row gy-4 d-flex">
                   <li class="nav-item col-4 col-md-3 col-lg-3">
@@ -677,17 +746,24 @@
                 </ul>
                 <p>Additional Features:</p>
                 <ul class="row mobtab gy-4 d-flex">
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i class="bi bi-check-circle-fill"></i> Built-in closet on all bedrooms
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i
+                      class="bi bi-check-circle-fill"></i> Built-in closet on all bedrooms
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i class="bi bi-check-circle-fill"></i> Concrete flooring on the laundry area
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i
+                      class="bi bi-check-circle-fill"></i> Concrete flooring on the laundry area
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i class="bi bi-check-circle-fill"></i> Modified clothes hanger on dry area
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> Modified clothes hanger on dry area
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i class="bi bi-check-circle-fill"></i> Semi-landscape with paving blocks
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> Semi-landscape with paving blocks
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i class="bi bi-check-circle-fill"></i> With a semi-finished concrete fence, steel vehicular gate, and pedestrian gate (Applicable for SEDAN model unit Car)
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> With a semi-finished concrete fence, steel vehicular gate,
+                    and pedestrian gate (Applicable for SEDAN model unit Car)
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i class="bi bi-check-circle-fill"></i> A portion of concrete blocks on carport driveways
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> A portion of concrete blocks on carport driveways
                   </li>
                 </ul>
               </div>
@@ -709,7 +785,8 @@
               <div class="col-lg-8 order-2 order-lg-1">
                 <h3>Faye Model</h3>
                 <p class="fst-italic">
-                  With 2 room single-attached model house that gives you sufficient space for easy access from the living room to the dining room and into the kitchen. 
+                  With 2 room single-attached model house that gives you sufficient space for easy access from the
+                  living room to the dining room and into the kitchen.
                 </p>
                 <ul class="nav nav-tabs row gy-4 d-flex">
                   <li class="nav-item col-4 col-md-3 col-lg-3">
@@ -751,17 +828,24 @@
                 </ul>
                 <p>Additional Features:</p>
                 <ul class="row mobtab gy-4 d-flex">
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i class="bi bi-check-circle-fill"></i> Built-in closet on all bedrooms
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i
+                      class="bi bi-check-circle-fill"></i> Built-in closet on all bedrooms
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i class="bi bi-check-circle-fill"></i> Concrete flooring on the laundry area
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i
+                      class="bi bi-check-circle-fill"></i> Concrete flooring on the laundry area
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i class="bi bi-check-circle-fill"></i> Modified clothes hanger on dry area
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> Modified clothes hanger on dry area
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i class="bi bi-check-circle-fill"></i> Semi-landscape with paving blocks
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> Semi-landscape with paving blocks
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i class="bi bi-check-circle-fill"></i> With a semi-finished concrete fence, steel vehicular gate, and pedestrian gate (Applicable for SEDAN model unit Car)
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> With a semi-finished concrete fence, steel vehicular gate,
+                    and pedestrian gate (Applicable for SEDAN model unit Car)
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i class="bi bi-check-circle-fill"></i> A portion of concrete blocks on carport driveways
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> A portion of concrete blocks on carport driveways
                   </li>
                 </ul>
               </div>
@@ -825,17 +909,24 @@
                 </ul>
                 <p>Additional Features:</p>
                 <ul class="row mobtab gy-4 d-flex">
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i class="bi bi-check-circle-fill"></i> Built-in closet on all bedrooms
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i
+                      class="bi bi-check-circle-fill"></i> Built-in closet on all bedrooms
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i class="bi bi-check-circle-fill"></i> Concrete flooring on the laundry area
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i
+                      class="bi bi-check-circle-fill"></i> Concrete flooring on the laundry area
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i class="bi bi-check-circle-fill"></i> Modified clothes hanger on dry area
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> Modified clothes hanger on dry area
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i class="bi bi-check-circle-fill"></i> Semi-landscape with paving blocks
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> Semi-landscape with paving blocks
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i class="bi bi-check-circle-fill"></i> With a semi-finished concrete fence, steel vehicular gate, and pedestrian gate (Applicable for SEDAN model unit Car)
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> With a semi-finished concrete fence, steel vehicular gate,
+                    and pedestrian gate (Applicable for SEDAN model unit Car)
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i class="bi bi-check-circle-fill"></i> A portion of concrete blocks on carport driveways
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> A portion of concrete blocks on carport driveways
                   </li>
                 </ul>
               </div>
@@ -857,7 +948,7 @@
               <div class="col-lg-8 order-2 order-lg-1">
                 <h3>Angelo Model</h3>
                 <p class="fst-italic">
-                  A multi-family home consisting of two units separated by a concrete wall. 
+                  A multi-family home consisting of two units separated by a concrete wall.
                 </p>
                 <ul class="nav nav-tabs row gy-4 d-flex">
                   <li class="nav-item col-6 col-md-3 col-lg-3">
@@ -891,11 +982,15 @@
                 </ul>
                 <p>Additional Features:</p>
                 <ul class="row gy-4 d-flex">
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i class="bi bi-check-circle-fill"></i> With a semi-concrete fence and pedestrian gate
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i
+                      class="bi bi-check-circle-fill"></i> With a semi-concrete fence and pedestrian gate
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i class="bi bi-check-circle-fill"></i> Semi-landscape on the front area
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i
+                      class="bi bi-check-circle-fill"></i> Semi-landscape on the front area
                   </li>
-                  <li class="col-12 col-md-12 col-lg-12" style="padding-bottom: 0px;margin-top: 0px;"><i class="bi bi-check-circle-fill"></i> With free simple sala set, four-seater dining set and bed with foam
+                  <li class="col-12 col-md-12 col-lg-12" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> With free simple sala set, four-seater dining set and bed
+                    with foam
                   </li>
                 </ul>
               </div>
@@ -923,7 +1018,11 @@
 
         <div class="section-featuresss">
           <h2>Granville Crest House Model</h2>
-          <p>Move into your new home with the least of worries. Granville Crest has six model houses: Mathew 1, Mathew 2, Gabriel, John, and Rafael. With quality building design and well-thought-out space planning, the Granville is made to be flood-free and constructed with only high-quality concrete products supplied by Prestige’s sister company, KSBAIC. Granville Crest is a contemporary residence that offers an exceptional lifestyle of superior space and comfort.</p>
+          <p>Move into your new home with the least of worries. Granville Crest has six model houses: Mathew 1, Mathew
+            2, Gabriel, John, and Rafael. With quality building design and well-thought-out space planning, the
+            Granville is made to be flood-free and constructed with only high-quality concrete products supplied by
+            Prestige’s sister company, KSBAIC. Granville Crest is a contemporary residence that offers an exceptional
+            lifestyle of superior space and comfort.</p>
         </div>
 
         <ul class="nav nav-tabs row gy-4 d-flex">
@@ -979,7 +1078,8 @@
               <div class="col-lg-8 order-2 order-lg-1" data-aos="fade-right" data-aos-delay="800">
                 <h3>Matthew 1 Model</h3>
                 <p class="fst-italic">
-                  A Single attached 2-storey unit with spacious living room area for a family gathering. With 4 bedrooms and 3 toilets and bath.
+                  A Single attached 2-storey unit with spacious living room area for a family gathering. With 4 bedrooms
+                  and 3 toilets and bath.
                 </p>
                 <ul class="nav nav-tabs row gy-4 d-flex">
                   <li class="nav-item col-4 col-md-3 col-lg-3">
@@ -1021,21 +1121,28 @@
                 </ul>
                 <p>Additional Features:</p>
                 <ul class="row mobtab gy-4 d-flex">
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i class="bi bi-check-circle-fill"></i> Built-in closet on all bedrooms
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i
+                      class="bi bi-check-circle-fill"></i> Built-in closet on all bedrooms
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i class="bi bi-check-circle-fill"></i> Concrete flooring on the laundry area
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i
+                      class="bi bi-check-circle-fill"></i> Concrete flooring on the laundry area
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i class="bi bi-check-circle-fill"></i> Modified clothes hanger on dry area
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> Modified clothes hanger on dry area
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i class="bi bi-check-circle-fill"></i> With steel window grills
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> With steel window grills
                   </li>
-                  <li class="col-12 col-md-12 col-lg-11" style="padding-bottom: 0px;margin-top: 0px;"><i class="bi bi-check-circle-fill"></i> With a semi-finished concrete fence, steel vehicular gate, and pedestrian gate (Applicable for SEDAN model unit Car)
+                  <li class="col-12 col-md-12 col-lg-11" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> With a semi-finished concrete fence, steel vehicular gate,
+                    and pedestrian gate (Applicable for SEDAN model unit Car)
                   </li>
                 </ul>
               </div>
 
               <div class="col-lg-4 order-1 order-lg-2 text-center" data-aos="fade-left" data-aos-delay="1000">
-                <img src="assets/img/crest/Mathew-1-768x768.jpg" class="img-fluid" width="90%" style="padding: 80px 0px;">
+                <img src="assets/img/crest/Mathew-1-768x768.jpg" class="img-fluid" width="90%"
+                  style="padding: 80px 0px;">
               </div>
             </div>
 
@@ -1051,7 +1158,8 @@
               <div class="col-lg-8 order-2 order-lg-1">
                 <h3>Matthew 2 Model</h3>
                 <p class="fst-italic">
-                  A single attached 2-storey unit with spacious living room area for family gatherings. With 4 bedrooms and 3 toilets and bath.
+                  A single attached 2-storey unit with spacious living room area for family gatherings. With 4 bedrooms
+                  and 3 toilets and bath.
                 </p>
                 <ul class="nav nav-tabs row gy-4 d-flex">
                   <li class="nav-item col-4 col-md-3 col-lg-3">
@@ -1093,21 +1201,28 @@
                 </ul>
                 <p>Additional Features:</p>
                 <ul class="row mobtab gy-4 d-flex">
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i class="bi bi-check-circle-fill"></i> Built-in closet on all bedrooms
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i
+                      class="bi bi-check-circle-fill"></i> Built-in closet on all bedrooms
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i class="bi bi-check-circle-fill"></i> Concrete flooring on the laundry area
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i
+                      class="bi bi-check-circle-fill"></i> Concrete flooring on the laundry area
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i class="bi bi-check-circle-fill"></i> Modified clothes hanger on dry area
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> Modified clothes hanger on dry area
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i class="bi bi-check-circle-fill"></i> With steel window grills
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> With steel window grills
                   </li>
-                  <li class="col-12 col-md-12 col-lg-11" style="padding-bottom: 0px;margin-top: 0px;"><i class="bi bi-check-circle-fill"></i> With a semi-finished concrete fence, steel vehicular gate, and pedestrian gate (Applicable for SEDAN model unit Car)
+                  <li class="col-12 col-md-12 col-lg-11" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> With a semi-finished concrete fence, steel vehicular gate,
+                    and pedestrian gate (Applicable for SEDAN model unit Car)
                   </li>
                 </ul>
               </div>
 
               <div class="col-lg-4 order-1 order-lg-2 text-center">
-                <img src="assets/img/crest/Mathew-2-768x768.jpg" class="img-fluid" width="90%" style="padding: 80px 0px;">
+                <img src="assets/img/crest/Mathew-2-768x768.jpg" class="img-fluid" width="90%"
+                  style="padding: 80px 0px;">
               </div>
             </div>
 
@@ -1165,21 +1280,28 @@
                 </ul>
                 <p>Additional Features:</p>
                 <ul class="row mobtab gy-4 d-flex">
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i class="bi bi-check-circle-fill"></i> Built-in closet on all bedrooms
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i
+                      class="bi bi-check-circle-fill"></i> Built-in closet on all bedrooms
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i class="bi bi-check-circle-fill"></i> Concrete flooring on the laundry area
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i
+                      class="bi bi-check-circle-fill"></i> Concrete flooring on the laundry area
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i class="bi bi-check-circle-fill"></i> Modified clothes hanger on dry area
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> Modified clothes hanger on dry area
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i class="bi bi-check-circle-fill"></i> With steel window grills
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> With steel window grills
                   </li>
-                  <li class="col-12 col-md-12 col-lg-11" style="padding-bottom: 0px;margin-top: 0px;"><i class="bi bi-check-circle-fill"></i> With a semi-finished concrete fence, steel vehicular gate, and pedestrian gate (Applicable for SEDAN model unit Car)
+                  <li class="col-12 col-md-12 col-lg-11" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> With a semi-finished concrete fence, steel vehicular gate,
+                    and pedestrian gate (Applicable for SEDAN model unit Car)
                   </li>
                 </ul>
               </div>
 
               <div class="col-lg-4 order-1 order-lg-2 text-center">
-                <img src="assets/img/crest/MICHAEL-768x768.jpg" class="img-fluid" width="90%" style="padding: 80px 0px;">
+                <img src="assets/img/crest/MICHAEL-768x768.jpg" class="img-fluid" width="90%"
+                  style="padding: 80px 0px;">
               </div>
             </div>
 
@@ -1229,21 +1351,28 @@
                 </ul>
                 <p>Additional Features:</p>
                 <ul class="row mobtab gy-4 d-flex">
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i class="bi bi-check-circle-fill"></i> Built-in closet on all bedrooms
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i
+                      class="bi bi-check-circle-fill"></i> Built-in closet on all bedrooms
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i class="bi bi-check-circle-fill"></i> Concrete flooring on the laundry area
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i
+                      class="bi bi-check-circle-fill"></i> Concrete flooring on the laundry area
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i class="bi bi-check-circle-fill"></i> Modified clothes hanger on dry area
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> Modified clothes hanger on dry area
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i class="bi bi-check-circle-fill"></i> With steel window grills
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> With steel window grills
                   </li>
-                  <li class="col-12 col-md-12 col-lg-11" style="padding-bottom: 0px;margin-top: 0px;"><i class="bi bi-check-circle-fill"></i> With a semi-finished concrete fence, steel vehicular gate, and pedestrian gate (Applicable for SEDAN model unit Car)
+                  <li class="col-12 col-md-12 col-lg-11" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> With a semi-finished concrete fence, steel vehicular gate,
+                    and pedestrian gate (Applicable for SEDAN model unit Car)
                   </li>
                 </ul>
               </div>
 
               <div class="col-lg-4 order-1 order-lg-2 text-center">
-                <img src="assets/img/crest/Gabriel-768x768.jpg" class="img-fluid" width="90%" style="padding: 30px 0px;">
+                <img src="assets/img/crest/Gabriel-768x768.jpg" class="img-fluid" width="90%"
+                  style="padding: 30px 0px;">
               </div>
             </div>
 
@@ -1290,13 +1419,18 @@
                 </ul>
                 <p>Additional Features:</p>
                 <ul class="row mobtab gy-4 d-flex">
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i class="bi bi-check-circle-fill"></i> Concrete flooring on the laundry area
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i
+                      class="bi bi-check-circle-fill"></i> Concrete flooring on the laundry area
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i class="bi bi-check-circle-fill"></i> Modified clothes hanger on dry area
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i
+                      class="bi bi-check-circle-fill"></i> Modified clothes hanger on dry area
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i class="bi bi-check-circle-fill"></i> With a concrete fence and pedestrian gate
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> With a concrete fence and pedestrian gate
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i class="bi bi-check-circle-fill"></i> With Free Simple Sala Set, 4-seater Dining Set, & Bed with Foam
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> With Free Simple Sala Set, 4-seater Dining Set, & Bed with
+                    Foam
                   </li>
                 </ul>
               </div>
@@ -1349,11 +1483,15 @@
                 </ul>
                 <p>Additional Features:</p>
                 <ul class="row mobtab gy-4 d-flex">
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i class="bi bi-check-circle-fill"></i> Flooring- Plain cement plaster finish
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i
+                      class="bi bi-check-circle-fill"></i> Flooring- Plain cement plaster finish
                   </li>
-                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i class="bi bi-check-circle-fill"></i> With a concrete fence and pedestrian gate
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i
+                      class="bi bi-check-circle-fill"></i> With a concrete fence and pedestrian gate
                   </li>
-                  <li class="col-12 col-md-12 col-lg-12" style="padding-bottom: 0px;margin-top: 0px;"><i class="bi bi-check-circle-fill"></i>With Free Simple Sala Set, 4-seater Dining Set, & Bed with Foam 
+                  <li class="col-12 col-md-12 col-lg-12" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i>With Free Simple Sala Set, 4-seater Dining Set, & Bed with
+                    Foam
                   </li>
                 </ul>
               </div>
@@ -1386,14 +1524,7 @@
         <ul class="nav nav-tabs row gy-4 d-flex">
 
           <li class="nav-item col-6 col-md-6 col-lg-3">
-            <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#am-1">
-              <img src="./assets/img/features/house-model.svg" width="25%">
-              <h4>Secure Environment</h4>
-            </a>
-          </li><!-- End Tab 1 Nav -->
-
-          <li class="nav-item col-6 col-md-6 col-lg-3">
-            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#am-2">
+            <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#am-2">
               <img src="./assets/img/features/house-model1.svg" width="25%">
               <h4>Community Center</h4>
             </a>
@@ -1416,47 +1547,7 @@
 
         <div class="tab-content">
 
-          <div class="tab-pane active show" id="am-1">
-            <div class="row gy-4">
-              <div class="col-lg-12 order-2 order-lg-1" data-aos="fade-right" data-aos-delay="200">
-                <h3>Secure Environment</h3>
-                <h4>Granville Entrance</h4>
-                <p>
-                  In addition to the concrete perimeter fence and steel gate that hedge every home unit, a guardhouse
-                  with
-                  24-hour CCTV greets everyone at the entrance of the community for secure living. With quality building
-                  design and well thought-out space planning, the Granville is made to be flood-free and constructed
-                  with
-                  only high-quality concrete products supplied by Prestige’s sister company, KSBAIC.
-                </p>
-              </div>
-            </div>
-            <ul class="box-container three-cols row gy-4 d-flex" style="margin-top: 10px;">
-              <li class="box col-lg-4 order-1 order-lg-2 text-center">
-                <div class="inner">
-                  <a href="assets/img/amenities/granville_guardhouse-1.jpg" class="glightbox">
-                    <img src="assets/img/amenities/granville_guardhouse-1.jpg" width="100%" />
-                  </a>
-                </div>
-              </li>
-              <li class="box col-lg-4 order-1 order-lg-2 text-center">
-                <div class="inner">
-                  <a href="assets/img/amenities/Guard-House-3.jpg" class="glightbox">
-                    <img src="assets/img/amenities/Guard-House-3.jpg" width="100%" />
-                  </a>
-                </div>
-              </li>
-              <li class="box col-lg-4 order-1 order-lg-2 text-center">
-                <div class="inner">
-                  <a href="assets/img/amenities/Guard-house-crest.jpg" class="glightbox">
-                    <img src="assets/img/amenities/Guard-house-crest.jpg" width="100%" />
-                  </a>
-                </div>
-              </li>
-            </ul>
-          </div><!-- End Tab Content 1 -->
-
-          <div class="tab-pane" id="am-2">
+          <div class="tab-pane active show" id="am-2">
             <div class="row gy-4">
               <div class="col-lg-12 order-2 order-lg-1" data-aos="fade-right" data-aos-delay="200">
                 <h3>Community Center</h3>
@@ -1567,7 +1658,7 @@
 
     <!-- ======= Clients Section ======= -->
     <section id="clients" class="clients">
-      <div class="container" >
+      <div class="container">
 
         <div class="clients-slider swiper">
           <div class="swiper-wrapper align-items-center">
@@ -1627,6 +1718,66 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
+  <script>
+    let slideIndex = 0;
+    showSlides();
+
+    // Next-previous control
+    function nextSlide() {
+      slideIndex++;
+      showSlides();
+      timer = _timer; // reset timer
+    }
+
+    function prevSlide() {
+      slideIndex--;
+      showSlides();
+      timer = _timer;
+    }
+
+    // Thumbnail image controlls
+    function currentSlide(n) {
+      slideIndex = n - 1;
+      showSlides();
+      timer = _timer;
+    }
+
+    function showSlides() {
+      let slides = document.querySelectorAll(".mySlides");
+      let dots = document.querySelectorAll(".dots");
+
+      if (slideIndex > slides.length - 1) slideIndex = 0;
+      if (slideIndex < 0) slideIndex = slides.length - 1;
+
+      // hide all slides
+      slides.forEach((slide) => {
+        slide.style.display = "none";
+      });
+
+      // show one slide base on index number
+      slides[slideIndex].style.display = "block";
+
+      dots.forEach((dot) => {
+        dot.classList.remove("active");
+      });
+
+      dots[slideIndex].classList.add("active");
+    }
+
+    // autoplay slides --------
+    let timer = 7; // sec
+    const _timer = timer;
+
+    // this function runs every 1 second
+    setInterval(() => {
+      timer--;
+
+      if (timer < 1) {
+        nextSlide();
+        timer = _timer; // reset timer
+      }
+    }, 1000); // 1sec
+  </script>
 </body>
 
 </html>
