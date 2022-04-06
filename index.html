@@ -10,7 +10,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/home.png" rel="icon">
+  <link href="assets/img/fav-house.png" rel="icon">
   <!-- <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
 
   <!-- Google Fonts -->
@@ -46,7 +46,8 @@
       </div>
     </div>
     <div class="nb-close-wrapper">
-      <a href="javascript:void(0);" class="icon-close" onclick="$('#notification-bar').fadeOut()"><i class="bi bi-x-lg"></i></a>
+      <a href="javascript:void(0);" class="icon-close" onclick="$('#notification-bar').fadeOut()"><i
+          class="bi bi-x-lg"></i></a>
     </div>
   </div> <!-- End Notification Bar-->
 
@@ -55,14 +56,13 @@
     <div class="container-fluid d-flex align-items-center justify-content-between">
 
       <a href="index.html" class="logo d-flex align-items-center scrollto me-auto me-lg-0">
-        <img src="assets/img/logo.png" alt="">
+        <img src="assets/img/clients/Prestige.jpg" alt="">
       </a>
 
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto" href="index.html#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="index.html#about">About</a></li>
-          <li><a class="nav-link scrollto" href="index.html#portfolio">Portfolio</a></li>
           <li><a class="nav-link scrollto" href="https://prestigehomesrealty.com.ph/contact-us-2/">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle d-none"></i>
@@ -78,9 +78,7 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-xl-8">
-          <h1>Granville</h1>
-          <h2>Live The Way You Dream.</h2>
-          <!-- <a href="./assets/img/GRANVILLE-NORWOOD.mp4" class="glightbox play-btn mb-4"></a> -->
+          <img src="assets/img/granville.png" width="90%">
         </div>
       </div>
     </div>
@@ -88,33 +86,96 @@
 
   <main id="main">
 
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>About Granville</h2>
+          <p>A good home is a seedbed of great expectations. And truly, there’s no place like one’s own dwelling for
+            beginning dreams and building them. At the Granville, let your home be an inspiration in itself,
+            encapsulating the verve of your growing family, or marking a personal milestone. Made by trusted homegrown
+            land developer Prestige Homes Real Estate Development Corp., the Granville is nestled in the south of Davao
+            City, where small town charm is knit with the bursting colors of a bustling capital.</p>
+
+          <p>Nurture family ties and lay the foundations for your grandest dreams in a home community that lets you live
+            without compromise. A twenty-minute drive from the crowded neighborhoods of Davao city center, the Granville
+            is nestled in the charming village of Catalunan Pequeno. It’s close enough to schools, hospitals, and
+            commercial business centers to keep the essentials of life readily accessible, but tucked away just right to
+            encourage the lifestyle you want in a casual, uninterrupted way. </p>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
     <!-- ======= Featured Services Section ======= -->
     <section id="featured-services" class="featured-services">
       <div class="container">
+        <h2>What Our Project has:</h2>
 
-        <div class="row gy-4">
+        <div class="carousel-container">
+          <div class="mySlides animate">
+            <img src="https://wallpapershome.com/images/pages/pic_h/16239.jpg" alt="slide" />
+          </div>
 
-          <div class="col-xl-4 col-md-4 d-flex" data-aos="zoom-out">
+          <div class="mySlides animate">
+            <img src="https://wallpapershome.com/images/pages/pic_h/23525.jpg" alt="slide" />
+          </div>
+
+          <div class="mySlides animate">
+            <img src="https://wallpapershome.com/images/pages/pic_h/23277.jpg" alt="slide" />
+          </div>
+
+          <div class="mySlides animate">
+            <img src="https://wallpapershome.com/images/pages/pic_h/12596.jpg" alt="slide" />
+          </div>
+
+          <div class="mySlides animate">
+            <img src="https://wallpapershome.com/images/pages/pic_h/23419.jpg" alt="slide" />
+          </div>
+
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="prevSlide()">&#10094;</a>
+          <a class="next" onclick="nextSlide()">&#10095;</a>
+
+          <!-- The dots/circles -->
+          <div class="dots-container">
+            <span class="dots" onclick="currentSlide(1)"></span>
+            <span class="dots" onclick="currentSlide(2)"></span>
+            <span class="dots" onclick="currentSlide(3)"></span>
+            <span class="dots" onclick="currentSlide(4)"></span>
+            <span class="dots" onclick="currentSlide(5)"></span>
+          </div>
+        </div>
+
+        <div class="row gy-4" style="margin-top: 20px;">
+          <div class="col-xl-4 col-md-12 d-flex" data-aos="zoom-out">
             <div class="service-item1 position-relative">
-              <div class="icon"><i class="bi bi-activity icon design"></i></div>
-              <h4><a class="stretched-link">Design</a></h4>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+              <h4><a class="stretched-link">Reassuring Residence</a></h4>
+              <p>In addition to the concrete perimeter fence and steel gate that hedge every home unit, a guardhouse
+                with 24-hour CCTV greets everyone at the entrance of the community for truly secure living. With quality
+                building design and well-thought out space planning, the Granville is made to be flood-free and
+                constructed with only high-quality concrete products supplied by Prestige’s sister company, KSBAIC.</p>
             </div>
           </div><!-- End Service Item -->
 
-          <div class="col-xl-4 col-md-4 d-flex" data-aos="zoom-out" data-aos-delay="200">
+          <div class="col-xl-4 col-md-12 d-flex" data-aos="zoom-out" data-aos-delay="200">
             <div class="service-item2 position-relative">
-              <div class="icon"><i class="bi bi-bounding-box-circles icon"></i></div>
-              <h4><a class="stretched-link">Modeling</a></h4>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+              <h4><a class="stretched-link">Well-rounded lifestyle</a></h4>
+              <p>Sports-themed facilities including a swimming pool, long tennis court, basketball court, parks, and a
+                children’s playground make for healthy and leisurely living at the Granville. For celebrating momentous
+                family moments or social gatherings, the clubhouse and the subdivision’s generous, palm-tree lined
+                natural landscaping make for a delightful setting.</p>
             </div>
           </div><!-- End Service Item -->
 
-          <div class="col-xl-4 col-md-4 d-flex" data-aos="zoom-out" data-aos-delay="400">
+          <div class="col-xl-4 col-md-12 d-flex" data-aos="zoom-out" data-aos-delay="400">
             <div class="service-item position-relative">
-              <div class="icon"><i class="bi bi-calendar4-week icon building"></i></div>
-              <h4><a class="stretched-link">Building</a></h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+              <h4><a class="stretched-link">Settle in seamlessly</a></h4>
+              <p>Move in to your new home with the least of worries. With water and electricity utilities among other
+                ready amenities including a paved and covered walkway and car park come with every house unit. Outside,
+                a semi-landscaped lawn, wide roads, and more open spaces ensure that there is literally a lot of room
+                for you and your family to grow at the Granville.</p>
             </div>
           </div><!-- End Service Item -->
 
@@ -123,135 +184,50 @@
       </div>
     </section><!-- End Featured Services Section -->
 
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-header">
-          <h2>About Us</h2>
-          <p>Architecto nobis eos vel nam quidem vitae temporibus voluptates qui hic deserunt iusto omnis nam voluptas
-            asperiores sequi tenetur dolores incidunt enim voluptatem magnam cumque fuga.</p>
-        </div>
-
-        <div class="row g-4 g-lg-5" data-aos="fade-up" data-aos-delay="200">
-          <div class="col-lg-5">
-            <div class="about-img">
-              <img src="assets/img/for-web-new-edited.jpg" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-7">
-
-            <!-- Tabs -->
-            <ul class="nav nav-pills mb-3">
-              <li><a class="nav-link active" data-bs-toggle="pill" href="#tab1">History</a></li>
-              <li><a class="nav-link" data-bs-toggle="pill" href="#tab2">Mission</a></li>
-              <li><a class="nav-link" data-bs-toggle="pill" href="#tab3">Vission</a></li>
-            </ul><!-- End Tabs -->
-
-            <!-- Tab Content -->
-            <div class="tab-content">
-
-              <div class="tab-pane fade show active" id="tab1">
-
-                <p>Prestige Homes and Realty Development Corporation (PHRDC) is one of Davao City’s most trusted and
-                  fast growing land and property developers. Our experience for more than 10 years and expertise in
-                  property development make a real difference as we put our customers at the heart of our business.</p>
-
-                <p>Humbly owned by the Cerbo family and their children – Manuel III Idong Cerbo, Michael Adrian Idong
-                  Cerbo, Mark Keaneth Idong Cerbo and Mico Angelo Idong Cerbo, PHRDC has a rich heritage with their
-                  business beginnings in small scale residential design and construction. Thru the hardwork, good
-                  financial stewardship and dedication of the owners, later on the business grew and expanded into the
-                  construction materials business thru its subsidiary Kean Solid Blocks and Aggregates Industries
-                  Corporation with its high quality aggregates and machine made hollow blocks. It also paved the way for
-                  the industrial partnerships with the region’s prominent property developers for their successful
-                  projects in Villa Senorita, Palm Ridge Subdivision, Orchard Lane and various projects of Davao Joyful
-                  Homes.</p>
-
-                <p>Our differentiation in delivering excellent service, quality workmanship of our houses and
-                  communities, expertise of Engineers and Architects and our modern construction methods and
-                  technologies resulted to the successful launch of GRANVILLE community brand in Davao City.</p>
-
-                <p>Today, we offer homes in Granville I, Granville II, Granville III, and Granville Crest (IV) for our
-                  customers who want to experience firsthand what a modern, peaceful, connected and vibrant community
-                  really feels like. We designed our Granville house units to suit buyers at every stage of life.</p>
-
-              </div><!-- End Tab 1 Content -->
-
-              <div class="tab-pane fade show" id="tab2">
-
-
-                <p>To be able to deliver top-quality development that are highly marketable
-                  development project, we at Prestige Homes commit to the following:</p>
-
-                <ul>
-                  <li><i class="ri-check-double-line"></i> That all aspects of our technical planning and construction
-                    undergo the necessary quality control.</li>
-                  <li><i class="ri-check-double-line"></i> That we promptly deliver all projects according to agreed
-                    specifications.</li>
-                  <li><i class="ri-check-double-line"></i> That we do so in the most cost-efficient manner.</li>
-                </ul>
-
-              </div><!-- End Tab 2 Content -->
-
-              <div class="tab-pane fade show" id="tab3">
-
-                <p>To be a well known and leading home provider and real estate developer in Davao
-                  City, and eventually in the whole Philippines, by doing works that fulfills, if not exceeds our
-                  client’s vision.</p>
-
-              </div><!-- End Tab 3 Content -->
-
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End About Section -->
-
     <!-- ======= Features Section ======= -->
     <section id="features" class="features">
       <div class="container" data-aos="fade-up">
 
         <div class="section-features">
           <h2>Granville I & II House Models</h2>
+          <p>Granville subdivision is an Asian-Mediterranean themed Subdivision with 5 Model house units, namely, KEAN,
+            KEN, MIKE, MARK & MICO models. The subdivision has more than 10 hectares with 888 saleable housing units.
+            Our Granville Subdivision gives you a unique vibe of living. Live in beauty and elegance.</p>
         </div>
 
         <ul class="nav nav-tabs row gy-4 d-flex">
 
           <li class="nav-item col-6 col-md-4 col-lg-2">
             <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#g1-1">
-              <img src="./assets/img/house-model.svg" width="25%">
+              <img src="./assets/img/features/house-model.svg" width="25%">
               <h4>Kean</h4>
             </a>
           </li><!-- End Tab 1 Nav -->
 
           <li class="nav-item col-6 col-md-4 col-lg-2">
             <a class="nav-link" data-bs-toggle="tab" data-bs-target="#g1-2">
-              <img src="./assets/img/house-model1.svg" width="25%">
+              <img src="./assets/img/features/house-model1.svg" width="25%">
               <h4>Ken</h4>
             </a>
           </li><!-- End Tab 2 Nav -->
 
           <li class="nav-item col-6 col-md-4 col-lg-2">
             <a class="nav-link" data-bs-toggle="tab" data-bs-target="#g1-3">
-              <img src="./assets/img/house-model2.svg" width="25%">
+              <img src="./assets/img/features/house-model2.svg" width="25%">
               <h4>Mike</h4>
             </a>
           </li><!-- End Tab 3 Nav -->
 
           <li class="nav-item col-6 col-md-4 col-lg-2">
             <a class="nav-link" data-bs-toggle="tab" data-bs-target="#g1-4">
-              <img src="./assets/img/house-model3.svg" width="25%">
+              <img src="./assets/img/features/house-model3.svg" width="25%">
               <h4>Mark</h4>
             </a>
           </li><!-- End Tab 4 Nav -->
 
           <li class="nav-item col-6 col-md-4 col-lg-2">
             <a class="nav-link" data-bs-toggle="tab" data-bs-target="#g1-5">
-              <img src="./assets/img/house-model4.svg" width="25%">
+              <img src="./assets/img/features/house-model4.svg" width="25%">
               <h4>Mico</h4>
             </a>
           </li><!-- End Tab 5 Nav -->
@@ -265,160 +241,410 @@
               <div class="col-lg-8 order-2 order-lg-1" data-aos="fade-right" data-aos-delay="200">
                 <h3>Kean Model</h3>
                 <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                  dolore
-                  magna aliqua.
+                  A cost-effective two-story concrete model unit with 4 bedrooms and 3 toilets and bath which is perfect
+                  for the urban setting.
                 </p>
-                <ul>
-                  <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                <ul class="nav nav-tabs row gy-4 d-flex">
+                  <li class="nav-item col-4 col-md-3 col-lg-3">
+                    <a class="granvillewan">
+                      <img src="./assets/img/features/square-layout.svg" width="25%">
+                      <h4>150 sqm</h4>
+                      <p>Lot Area</p>
+                    </a>
                   </li>
-                  <li><i class="bi bi-check-circle-fill"></i> Duis aute irure dolor in reprehenderit in voluptate velit.
+                  <li class="nav-item col-4 col-md-3 col-lg-3">
+                    <a class="granvillewan">
+                      <img src="./assets/img/features/square.svg" width="25%">
+                      <h4>129 sqm</h4>
+                      <p>Floor Area</p>
+                    </a>
                   </li>
-                  <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat
-                    nulla pariatur.</li>
+                  <li class="nav-item col-4 col-md-3 col-lg-3">
+                    <a class="granvillewan">
+                      <img src="./assets/img/features/shower-svgrepo.svg" width="25%">
+                      <h4>3</h4>
+                      <p>Toilet & Bath</p>
+                    </a>
+                  </li>
                 </ul>
-                <p>
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                  voluptate
-                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                  sunt in
-                  culpa qui officia deserunt mollit anim id est laborum
-                </p>
+                <ul class="nav nav-tabs row gy-4 d-flex">
+                  <li class="nav-item col-4 col-md-3 col-lg-3">
+                    <a class="granvillewan">
+                      <img src="./assets/img/features/bed-svgrepo.svg" width="25%">
+                      <h4>4</h4>
+                      <p>Bedrooms</p>
+                    </a>
+                  </li>
+                  <li class="nav-item col-4 col-md-3 col-lg-3">
+                    <a class="granvillewan">
+                      <img src="./assets/img/features/car-svgrepo.svg" width="25%">
+                      <h4>Carport</h4>
+                    </a>
+                  </li>
+                </ul>
+                <p>Additional Features:</p>
+                <ul class="row mobtab gy-4 d-flex">
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i
+                      class="bi bi-check-circle-fill"></i> Built-in closet on all bedrooms
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i
+                      class="bi bi-check-circle-fill"></i> Semi-finished Concrete perimeter fence
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> Steel main gate and manhole
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> Semi-landscape with paving blocks
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> Concrete flooring on the laundry area
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> Modified clothes hanger on a dry area
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> With a concrete fence, steel vehicular gate, and pedestrian
+                    gate (Sedan Model Car Unit)
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> With steel window grills
+                  </li>
+                </ul>
               </div>
+
               <div class="col-lg-4 order-1 order-lg-2 text-center" data-aos="fade-left" data-aos-delay="400">
-                <img src="assets/img/house-model.svg" class="img-fluid" width="80%">
+                <img src="assets/img/i-ii/Kean1-768x768.jpg" class="img-fluid" width="90%" style="padding:130px 0px">
               </div>
             </div>
+
+            <p style="font-size: 12px; text-align: center;">
+              Disclaimer: Prestige Homes and Realty Development Corporation shall have the right to change the
+              specifications specified herein as may be deemed necessary without prior notice.
+            </p>
+
           </div><!-- End Tab Content 1 -->
 
           <div class="tab-pane" id="g1-2">
             <div class="row gy-4">
               <div class="col-lg-8 order-2 order-lg-1">
                 <h3>Ken Model</h3>
-                <p>
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                  voluptate
-                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                  sunt in
-                  culpa qui officia deserunt mollit anim id est laborum
-                </p>
                 <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                  dolore
-                  magna aliqua.
+                  A 4-room bungalow model unit that opens directly into the living room & kitchen area that will be easy
+                  access to outdoor spaces. It also has a spacious kitchen for those who love to cook.
                 </p>
-                <ul>
-                  <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                <ul class="nav nav-tabs row gy-4 d-flex">
+                  <li class="nav-item col-4 col-md-3 col-lg-3">
+                    <a class="granvillewan">
+                      <img src="./assets/img/features/square-layout.svg" width="25%">
+                      <h4>150 sqm</h4>
+                      <p>Lot Area</p>
+                    </a>
                   </li>
-                  <li><i class="bi bi-check-circle-fill"></i> Duis aute irure dolor in reprehenderit in voluptate velit.
+                  <li class="nav-item col-4 col-md-3 col-lg-3">
+                    <a class="granvillewan">
+                      <img src="./assets/img/features/square.svg" width="25%">
+                      <h4>92 sqm</h4>
+                      <p>Floor Area</p>
+                    </a>
                   </li>
-                  <li><i class="bi bi-check-circle-fill"></i> Provident mollitia neque rerum asperiores dolores quos qui
-                    a. Ipsum neque dolor voluptate nisi sed.</li>
-                  <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat
-                    nulla pariatur.</li>
+                  <li class="nav-item col-4 col-md-3 col-lg-3">
+                    <a class="granvillewan">
+                      <img src="./assets/img/features/shower-svgrepo.svg" width="25%">
+                      <h4>2</h4>
+                      <p>Toilet & Bath</p>
+                    </a>
+                  </li>
+                </ul>
+                <ul class="nav nav-tabs row gy-3 d-flex">
+                  <li class="nav-item col-4 col-md-3 col-lg-3">
+                    <a class="granvillewan">
+                      <img src="./assets/img/features/bed-svgrepo.svg" width="25%">
+                      <h4>4</h4>
+                      <p>Bedrooms</p>
+                    </a>
+                  </li>
+                  <li class="nav-item col-4 col-md-3 col-lg-3">
+                    <a class="granvillewan">
+                      <img src="./assets/img/features/car-svgrepo.svg" width="25%">
+                      <h4>Carport</h4>
+                    </a>
+                  </li>
+                </ul>
+                <p>Additional Features:</p>
+                <ul class="row mobtab gy-4 d-flex">
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i
+                      class="bi bi-check-circle-fill"></i> Built-in closet on all bedrooms
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i
+                      class="bi bi-check-circle-fill"></i> Semi-finished Concrete perimeter fence
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> Steel main gate and manhole
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> Semi-landscape with paving blocks
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> Concrete flooring on the laundry area
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> Modified clothes hanger on a dry area
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> With a concrete fence, steel vehicular gate, and pedestrian
+                    gate (Sedan Model Car Unit)
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> With steel window grills
+                  </li>
                 </ul>
               </div>
+
               <div class="col-lg-4 order-1 order-lg-2 text-center">
-                <img src="assets/img/house-model1.svg" class="img-fluid" width="80%">
+                <img src="assets/img/i-ii/Ken2.jpg" class="img-fluid" width="90%" style="padding:130px 0px">
               </div>
             </div>
+
+            <p style="font-size: 12px; text-align: center;">
+              Disclaimer: Prestige Homes and Realty Development Corporation shall have the right to change the
+              specifications specified herein as may be deemed necessary without prior notice.
+            </p>
           </div><!-- End Tab Content 2 -->
 
           <div class="tab-pane" id="g1-3">
             <div class="row gy-4">
               <div class="col-lg-8 order-2 order-lg-1">
                 <h3>Mike Model</h3>
-                <p>
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                  voluptate
-                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                  sunt in
-                  culpa qui officia deserunt mollit anim id est laborum
-                </p>
-                <ul>
-                  <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </li>
-                  <li><i class="bi bi-check-circle-fill"></i> Duis aute irure dolor in reprehenderit in voluptate velit.
-                  </li>
-                  <li><i class="bi bi-check-circle-fill"></i> Provident mollitia neque rerum asperiores dolores quos qui
-                    a. Ipsum neque dolor voluptate nisi sed.</li>
-                </ul>
                 <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                  dolore
-                  magna aliqua.
+                  A 3-room bungalow model unit where an open floor plan is maximized for efficiency and flow from room
+                  to room with minimal space wasted on hallways. Perfect for growing family and investment.
                 </p>
+                <ul class="nav nav-tabs row gy-4 d-flex">
+                  <li class="nav-item col-4 col-md-3 col-lg-3">
+                    <a class="granvillewan">
+                      <img src="./assets/img/features/square-layout.svg" width="25%">
+                      <h4>125 sqm</h4>
+                      <p>Lot Area</p>
+                    </a>
+                  </li>
+                  <li class="nav-item col-4 col-md-3 col-lg-3">
+                    <a class="granvillewan">
+                      <img src="./assets/img/features/square.svg" width="25%">
+                      <h4>80 sqm</h4>
+                      <p>Floor Area</p>
+                    </a>
+                  </li>
+                  <li class="nav-item col-4 col-md-3 col-lg-3">
+                    <a class="granvillewan">
+                      <img src="./assets/img/features/shower-svgrepo.svg" width="25%">
+                      <h4>2</h4>
+                      <p>Toilet & Bath</p>
+                    </a>
+                  </li>
+                </ul>
+                <ul class="nav nav-tabs row gy-4 d-flex">
+                  <li class="nav-item col-4 col-md-3 col-lg-3">
+                    <a class="granvillewan">
+                      <img src="./assets/img/features/bed-svgrepo.svg" width="25%">
+                      <h4>3</h4>
+                      <p>Bedrooms</p>
+                    </a>
+                  </li>
+                  <li class="nav-item col-4 col-md-3 col-lg-3">
+                    <a class="granvillewan">
+                      <img src="./assets/img/features/car-svgrepo.svg" width="25%">
+                      <h4>Carport</h4>
+                    </a>
+                  </li>
+                </ul>
+                <p>Additional Features:</p>
+                <ul class="row mobtab gy-4 d-flex">
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i
+                      class="bi bi-check-circle-fill"></i> Built-in closet on all bedrooms
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i
+                      class="bi bi-check-circle-fill"></i> Semi-finished Concrete perimeter fence
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> Steel main gate and manhole
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> Semi-landscape with paving blocks
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> Concrete flooring on the laundry area
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> Modified clothes hanger on a dry area
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> With a concrete fence, steel vehicular gate, and pedestrian
+                    gate (Sedan Model Car Unit)
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> With steel window grills
+                  </li>
+                </ul>
               </div>
+
               <div class="col-lg-4 order-1 order-lg-2 text-center">
-                <img src="assets/img/house-model2.svg" class="img-fluid" width="80%">
+                <img src="assets/img/i-ii/Mike3.jpg" class="img-fluid" width="90%" style="padding:130px 0px">
               </div>
             </div>
+
+            <p style="font-size: 12px; text-align: center;">
+              Disclaimer: Prestige Homes and Realty Development Corporation shall have the right to change the
+              specifications specified herein as may be deemed necessary without prior notice.
+            </p>
+
           </div><!-- End Tab Content 3 -->
 
           <div class="tab-pane" id="g1-4">
             <div class="row gy-4">
               <div class="col-lg-8 order-2 order-lg-1">
                 <h3>Mark Model</h3>
-                <p>
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                  voluptate
-                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                  sunt in
-                  culpa qui officia deserunt mollit anim id est laborum
-                </p>
                 <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                  dolore
-                  magna aliqua.
+                  A 2 room bungalow house that gives you spacious for easy access from the living room to the dining
+                  room and into the kitchen.
                 </p>
-                <ul>
-                  <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                <ul class="nav nav-tabs row gy-4 d-flex">
+                  <li class="nav-item col-4 col-md-3 col-lg-3">
+                    <a class="granvillewan">
+                      <img src="./assets/img/features/square-layout.svg" width="25%">
+                      <h4>100 sqm</h4>
+                      <p>Lot Area</p>
+                    </a>
                   </li>
-                  <li><i class="bi bi-check-circle-fill"></i> Duis aute irure dolor in reprehenderit in voluptate velit.
+                  <li class="nav-item col-4 col-md-4 col-lg-3">
+                    <a class="granvillewan">
+                      <img src="./assets/img/features/square.svg" width="25%">
+                      <h4>62 sqm</h4>
+                      <p>Floor Area</p>
+                    </a>
                   </li>
-                  <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat
-                    nulla pariatur.</li>
+                  <li class="nav-item col-4 col-md-3 col-lg-3">
+                    <a class="granvillewan">
+                      <img src="./assets/img/features/shower-svgrepo.svg" width="25%">
+                      <h4>2</h4>
+                      <p>Toilet & Bath</p>
+                    </a>
+                  </li>
+                </ul>
+                <ul class="nav nav-tabs row gy-4 d-flex">
+                  <li class="nav-item col-4 col-md-3 col-lg-3">
+                    <a class="granvillewan">
+                      <img src="./assets/img/features/bed-svgrepo.svg" width="25%">
+                      <h4>2</h4>
+                      <p>Bedrooms</p>
+                    </a>
+                  </li>
+                  <li class="nav-item col-4 col-md-3 col-lg-3">
+                    <a class="granvillewan">
+                      <img src="./assets/img/features/car-svgrepo.svg" width="25%">
+                      <h4>Carport</h4>
+                    </a>
+                  </li>
+                </ul>
+                <p>Additional Features:</p>
+                <ul class="row mobtab gy-4 d-flex">
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i
+                      class="bi bi-check-circle-fill"></i> Built-in closet on all bedrooms
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i
+                      class="bi bi-check-circle-fill"></i> Semi-finished Concrete perimeter fence
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> Steel main gate and manhole
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> Semi-landscape with paving blocks
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> Concrete flooring on the laundry area
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> Modified clothes hanger on a dry area
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> With a concrete fence, steel vehicular gate, and pedestrian
+                    gate (Sedan Model Car Unit)
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> With steel window grills
+                  </li>
                 </ul>
               </div>
+
               <div class="col-lg-4 order-1 order-lg-2 text-center">
-                <img src="assets/img/house-model3.svg" class="img-fluid" width="80%">
+                <img src="assets/img/i-ii/mARK-for-web.jpg" class="img-fluid" width="90%" style="padding:130px 0px">
               </div>
             </div>
+
+            <p style="font-size: 12px; text-align: center;">
+              Disclaimer: Prestige Homes and Realty Development Corporation shall have the right to change the
+              specifications specified herein as may be deemed necessary without prior notice.
+            </p>
+
           </div><!-- End Tab Content 4 -->
 
           <div class="tab-pane" id="g1-5">
             <div class="row gy-4">
               <div class="col-lg-8 order-2 order-lg-1">
                 <h3>Mico Model</h3>
-                <p>
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                  voluptate
-                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                  sunt in
-                  culpa qui officia deserunt mollit anim id est laborum
-                </p>
                 <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                  dolore
-                  magna aliqua.
+                  A multi-family home consisting of two separate units separated by a concrete wall.
                 </p>
-                <ul>
-                  <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                <ul class="nav nav-tabs row gy-4 d-flex">
+                  <li class="nav-item col-6 col-md-3 col-lg-3">
+                    <a class="granvillewan">
+                      <img src="./assets/img/features/square-layout.svg" width="25%">
+                      <h4>70/80 sqm</h4>
+                      <p>Lot Area</p>
+                    </a>
                   </li>
-                  <li><i class="bi bi-check-circle-fill"></i> Duis aute irure dolor in reprehenderit in voluptate velit.
+                  <li class="nav-item col-6 col-md-3 col-lg-3">
+                    <a class="granvillewan">
+                      <img src="./assets/img/features/square.svg" width="25%">
+                      <h4>35 sqm</h4>
+                      <p>Floor Area</p>
+                    </a>
                   </li>
-                  <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat
-                    nulla pariatur.</li>
+                  <li class="nav-item col-6 col-md-3 col-lg-3">
+                    <a class="granvillewan">
+                      <img src="./assets/img/features/shower-svgrepo.svg" width="25%">
+                      <h4>1</h4>
+                      <p>Toilet & Bath</p>
+                    </a>
+                  </li>
+                  <li class="nav-item col-6 col-md-3 col-lg-3">
+                    <a class="granvillewan">
+                      <img src="./assets/img/features/bed-svgrepo.svg" width="25%">
+                      <h4>2</h4>
+                      <p>Bedrooms</p>
+                    </a>
+                  </li>
+                </ul>
+                <p>Additional Features:</p>
+                <ul class="row mobtab gy-4 d-flex">
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> Concrete flooring on the laundry area
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> With Semi-finished concrete fence and pedestrian gate
+                  </li>
                 </ul>
               </div>
+
               <div class="col-lg-4 order-1 order-lg-2 text-center">
-                <img src="assets/img/house-model4.svg" class="img-fluid" width="80%">
+                <img src="assets/img/i-ii/Mico5.jpg" class="img-fluid" width="90%" style="padding:50px 0px">
               </div>
             </div>
+
+            <p style="font-size: 12px; text-align: center;">
+              Disclaimer: Prestige Homes and Realty Development Corporation shall have the right to change the
+              specifications specified herein as may be deemed necessary without prior notice.
+            </p>
+
           </div><!-- End Tab Content 5 -->
 
         </div>
@@ -430,36 +656,40 @@
     <section id="features" class="featuress">
       <div class="container" data-aos="fade-up">
 
-        <div class="section-features">
+        <div class="section-featuress">
           <h2>Granville III House Models</h2>
+          <p>Brought to life by the simplicity and quiet splendor of Modern Contemporary architecture, aesthetics and
+            amenities that exhibit well-balanced living come together at the Granville III with four model houses:
+            Cindy, Faye, Adrian, and Angelo. Granville III Subdivision is an artful use of warm colors, natural
+            textures, and contemporary space design that suits clients' preferences in investing in their new Home.</p>
         </div>
 
         <ul class="nav nav-tabs row gy-4 d-flex">
 
           <li class="nav-item col-6 col-md-6 col-lg-3">
             <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#g3-1">
-              <img src="./assets/img/house-model.svg" width="25%">
+              <img src="./assets/img/features/house-model.svg" width="25%">
               <h4>Cindy</h4>
             </a>
           </li><!-- End Tab 1 Nav -->
 
           <li class="nav-item col-6 col-md-6 col-lg-3">
             <a class="nav-link" data-bs-toggle="tab" data-bs-target="#g3-2">
-              <img src="./assets/img/house-model1.svg" width="25%">
+              <img src="./assets/img/features/house-model1.svg" width="25%">
               <h4>Faye</h4>
             </a>
           </li><!-- End Tab 2 Nav -->
 
           <li class="nav-item col-6 col-md-6 col-lg-3">
             <a class="nav-link" data-bs-toggle="tab" data-bs-target="#g3-3">
-              <img src="./assets/img/house-model2.svg" width="25%">
+              <img src="./assets/img/features/house-model2.svg" width="25%">
               <h4>Adrian</h4>
             </a>
           </li><!-- End Tab 3 Nav -->
 
           <li class="nav-item col-6 col-md-6 col-lg-3">
             <a class="nav-link" data-bs-toggle="tab" data-bs-target="#g3-4">
-              <img src="./assets/img/house-model3.svg" width="25%">
+              <img src="./assets/img/features/house-model3.svg" width="25%">
               <h4>Angelo</h4>
             </a>
           </li><!-- End Tab 4 Nav -->
@@ -473,128 +703,308 @@
               <div class="col-lg-8 order-2 order-lg-1" data-aos="fade-right" data-aos-delay="400">
                 <h3>Cindy Model</h3>
                 <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                  dolore
-                  magna aliqua.
+                  A cost-effective two-storey concrete model unit with 3 bedrooms and 3 toilets and bath. Modern type
+                  model unit perfect for growing family.
                 </p>
-                <ul>
-                  <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                <ul class="nav nav-tabs row gy-4 d-flex">
+                  <li class="nav-item col-4 col-md-3 col-lg-3">
+                    <a class="granvilletwee">
+                      <img src="./assets/img/features/square-layout.svg" width="25%">
+                      <h4>100 sqm</h4>
+                      <p>Lot Area</p>
+                    </a>
                   </li>
-                  <li><i class="bi bi-check-circle-fill"></i> Duis aute irure dolor in reprehenderit in voluptate velit.
+                  <li class="nav-item col-4 col-md-3 col-lg-3">
+                    <a class="granvilletwee">
+                      <img src="./assets/img/features/square.svg" width="25%">
+                      <h4>78 sqm</h4>
+                      <p>Floor Area</p>
+                    </a>
                   </li>
-                  <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat
-                    nulla pariatur.</li>
+                  <li class="nav-item col-4 col-md-3 col-lg-3">
+                    <a class="granvilletwee">
+                      <img src="./assets/img/features/shower-svgrepo.svg" width="25%">
+                      <h4>3</h4>
+                      <p>Toilet & Bath</p>
+                    </a>
+                  </li>
                 </ul>
-                <p>
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                  voluptate
-                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                  sunt in
-                  culpa qui officia deserunt mollit anim id est laborum
-                </p>
+                <ul class="nav nav-tabs row gy-4 d-flex">
+                  <li class="nav-item col-4 col-md-3 col-lg-3">
+                    <a class="granvilletwee">
+                      <img src="./assets/img/features/bed-svgrepo.svg" width="25%">
+                      <h4>4</h4>
+                      <p>Bedrooms</p>
+                    </a>
+                  </li>
+                  <li class="nav-item col-4 col-md-3 col-lg-3">
+                    <a class="granvilletwee">
+                      <img src="./assets/img/features/car-svgrepo.svg" width="25%">
+                      <h4>Carport</h4>
+                    </a>
+                  </li>
+                </ul>
+                <p>Additional Features:</p>
+                <ul class="row mobtab gy-4 d-flex">
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i
+                      class="bi bi-check-circle-fill"></i> Built-in closet on all bedrooms
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i
+                      class="bi bi-check-circle-fill"></i> Concrete flooring on the laundry area
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> Modified clothes hanger on dry area
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> Semi-landscape with paving blocks
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> With a semi-finished concrete fence, steel vehicular gate,
+                    and pedestrian gate (Applicable for SEDAN model unit Car)
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> A portion of concrete blocks on carport driveways
+                  </li>
+                </ul>
               </div>
+
               <div class="col-lg-4 order-1 order-lg-2 text-center" data-aos="fade-left" data-aos-delay="600">
-                <img src="assets/img/house-model.svg" class="img-fluid" width="80%">
+                <img src="assets/img/iii/Cindy2-768x768.jpg" class="img-fluid" width="90%" style="padding:130px 0px">
               </div>
             </div>
+
+            <p style="font-size: 12px; text-align: center;">
+              Disclaimer: Prestige Homes and Realty Development Corporation shall have the right to change the
+              specifications specified herein as may be deemed necessary without prior notice.
+            </p>
+
           </div><!-- End Tab Content 1 -->
 
           <div class="tab-pane" id="g3-2">
             <div class="row gy-4">
               <div class="col-lg-8 order-2 order-lg-1">
                 <h3>Faye Model</h3>
-                <p>
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                  voluptate
-                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                  sunt in
-                  culpa qui officia deserunt mollit anim id est laborum
-                </p>
                 <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                  dolore
-                  magna aliqua.
+                  With 2 room single-attached model house that gives you sufficient space for easy access from the
+                  living room to the dining room and into the kitchen.
                 </p>
-                <ul>
-                  <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                <ul class="nav nav-tabs row gy-4 d-flex">
+                  <li class="nav-item col-4 col-md-3 col-lg-3">
+                    <a class="granvilletwee">
+                      <img src="./assets/img/features/square-layout.svg" width="25%">
+                      <h4>100 sqm</h4>
+                      <p>Lot Area</p>
+                    </a>
                   </li>
-                  <li><i class="bi bi-check-circle-fill"></i> Duis aute irure dolor in reprehenderit in voluptate velit.
+                  <li class="nav-item col-4 col-md-3 col-lg-3">
+                    <a class="granvilletwee">
+                      <img src="./assets/img/features/square.svg" width="25%">
+                      <h4>45 sqm</h4>
+                      <p>Floor Area</p>
+                    </a>
                   </li>
-                  <li><i class="bi bi-check-circle-fill"></i> Provident mollitia neque rerum asperiores dolores quos qui
-                    a. Ipsum neque dolor voluptate nisi sed.</li>
-                  <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat
-                    nulla pariatur.</li>
+                  <li class="nav-item col-4 col-md-3 col-lg-3">
+                    <a class="granvilletwee">
+                      <img src="./assets/img/features/shower-svgrepo.svg" width="25%">
+                      <h4>1</h4>
+                      <p>Toilet & Bath</p>
+                    </a>
+                  </li>
+                </ul>
+                <ul class="nav nav-tabs row gy-4 d-flex">
+                  <li class="nav-item col-4 col-md-3 col-lg-3">
+                    <a class="granvilletwee">
+                      <img src="./assets/img/features/bed-svgrepo.svg" width="25%">
+                      <h4>2</h4>
+                      <p>Bedrooms</p>
+                    </a>
+                  </li>
+                  <li class="nav-item col-4 col-md-3 col-lg-3">
+                    <a class="granvilletwee">
+                      <img src="./assets/img/features/car-svgrepo.svg" width="25%">
+                      <h4>Carport</h4>
+                    </a>
+                  </li>
+                </ul>
+                <p>Additional Features:</p>
+                <ul class="row mobtab gy-4 d-flex">
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i
+                      class="bi bi-check-circle-fill"></i> Built-in closet on all bedrooms
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i
+                      class="bi bi-check-circle-fill"></i> Concrete flooring on the laundry area
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> Modified clothes hanger on dry area
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> Semi-landscape with paving blocks
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> With a semi-finished concrete fence, steel vehicular gate,
+                    and pedestrian gate (Applicable for SEDAN model unit Car)
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> A portion of concrete blocks on carport driveways
+                  </li>
                 </ul>
               </div>
+
               <div class="col-lg-4 order-1 order-lg-2 text-center">
-                <img src="assets/img/house-model1.svg" class="img-fluid" width="80%">
+                <img src="assets/img/iii/FAYE3-768x768.jpg" class="img-fluid" width="90%" style="padding: 130px 0px;">
               </div>
             </div>
+
+            <p style="font-size: 12px; text-align: center;">
+              Disclaimer: Prestige Homes and Realty Development Corporation shall have the right to change the
+              specifications specified herein as may be deemed necessary without prior notice.
+            </p>
+
           </div><!-- End Tab Content 2 -->
 
           <div class="tab-pane" id="g3-3">
             <div class="row gy-4">
               <div class="col-lg-8 order-2 order-lg-1">
                 <h3>Adrian Model</h3>
-                <p>
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                  voluptate
-                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                  sunt in
-                  culpa qui officia deserunt mollit anim id est laborum
-                </p>
-                <ul>
-                  <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </li>
-                  <li><i class="bi bi-check-circle-fill"></i> Duis aute irure dolor in reprehenderit in voluptate velit.
-                  </li>
-                  <li><i class="bi bi-check-circle-fill"></i> Provident mollitia neque rerum asperiores dolores quos qui
-                    a. Ipsum neque dolor voluptate nisi sed.</li>
-                </ul>
                 <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                  dolore
-                  magna aliqua.
+                  With 2 room single-attached model house. Great investment for those who are starting their career.
                 </p>
+                <ul class="nav nav-tabs row gy-4 d-flex">
+                  <li class="nav-item col-4 col-md-3 col-lg-3">
+                    <a class="granvilletwee">
+                      <img src="./assets/img/features/square-layout.svg" width="25%">
+                      <h4>80 sqm</h4>
+                      <p>Lot Area</p>
+                    </a>
+                  </li>
+                  <li class="nav-item col-4 col-md-3 col-lg-3">
+                    <a class="granvilletwee">
+                      <img src="./assets/img/features/square.svg" width="25%">
+                      <h4>36 sqm</h4>
+                      <p>Floor Area</p>
+                    </a>
+                  </li>
+                  <li class="nav-item col-4 col-md-3 col-lg-3">
+                    <a class="granvilletwee">
+                      <img src="./assets/img/features/shower-svgrepo.svg" width="25%">
+                      <h4>1</h4>
+                      <p>Toilet & Bath</p>
+                    </a>
+                  </li>
+                </ul>
+                <ul class="nav nav-tabs row gy-4 d-flex">
+                  <li class="nav-item col-4 col-md-3 col-lg-3">
+                    <a class="granvilletwee">
+                      <img src="./assets/img/features/bed-svgrepo.svg" width="25%">
+                      <h4>2</h4>
+                      <p>Bedrooms</p>
+                    </a>
+                  </li>
+                  <li class="nav-item col-4 col-md-3 col-lg-3">
+                    <a class="granvilletwee">
+                      <img src="./assets/img/features/car-svgrepo.svg" width="25%">
+                      <h4>Carport</h4>
+                    </a>
+                  </li>
+                </ul>
+                <p>Additional Features:</p>
+                <ul class="row mobtab gy-4 d-flex">
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i
+                      class="bi bi-check-circle-fill"></i> Built-in closet on all bedrooms
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i
+                      class="bi bi-check-circle-fill"></i> Concrete flooring on the laundry area
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> Modified clothes hanger on dry area
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> Semi-landscape with paving blocks
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> With a semi-finished concrete fence, steel vehicular gate,
+                    and pedestrian gate (Applicable for SEDAN model unit Car)
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> A portion of concrete blocks on carport driveways
+                  </li>
+                </ul>
               </div>
+
               <div class="col-lg-4 order-1 order-lg-2 text-center">
-                <img src="assets/img/house-model2.svg" class="img-fluid" width="80%">
+                <img src="assets/img/iii/Adrian1.jpg" class="img-fluid" width="90%" style="padding: 130px 0px;">
               </div>
             </div>
+
+            <p style="font-size: 12px; text-align: center;">
+              Disclaimer: Prestige Homes and Realty Development Corporation shall have the right to change the
+              specifications specified herein as may be deemed necessary without prior notice.
+            </p>
+
           </div><!-- End Tab Content 3 -->
 
           <div class="tab-pane" id="g3-4">
             <div class="row gy-4">
               <div class="col-lg-8 order-2 order-lg-1">
                 <h3>Angelo Model</h3>
-                <p>
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                  voluptate
-                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                  sunt in
-                  culpa qui officia deserunt mollit anim id est laborum
-                </p>
                 <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                  dolore
-                  magna aliqua.
+                  A multi-family home consisting of two units separated by a concrete wall.
                 </p>
-                <ul>
-                  <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                <ul class="nav nav-tabs row gy-4 d-flex">
+                  <li class="nav-item col-6 col-md-3 col-lg-3">
+                    <a class="granvilletwee">
+                      <img src="./assets/img/features/square-layout.svg" width="25%">
+                      <h4>65 sqm</h4>
+                      <p>Lot Area</p>
+                    </a>
                   </li>
-                  <li><i class="bi bi-check-circle-fill"></i> Duis aute irure dolor in reprehenderit in voluptate velit.
+                  <li class="nav-item col-6 col-md-3 col-lg-3">
+                    <a class="granvilletwee">
+                      <img src="./assets/img/features/square.svg" width="25%">
+                      <h4>28 sqm</h4>
+                      <p>Floor Area</p>
+                    </a>
                   </li>
-                  <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat
-                    nulla pariatur.</li>
+                  <li class="nav-item col-6 col-md-3 col-lg-3">
+                    <a class="granvilletwee">
+                      <img src="./assets/img/features/shower-svgrepo.svg" width="25%">
+                      <h4>1</h4>
+                      <p>Toilet & Bath</p>
+                    </a>
+                  </li>
+                  <li class="nav-item col-6 col-md-3 col-lg-3">
+                    <a class="granvilletwee">
+                      <img src="./assets/img/features/bed-svgrepo.svg" width="25%">
+                      <h4>2</h4>
+                      <p>Bedrooms</p>
+                    </a>
+                  </li>
+                </ul>
+                <p>Additional Features:</p>
+                <ul class="row gy-4 d-flex">
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i
+                      class="bi bi-check-circle-fill"></i> With a semi-concrete fence and pedestrian gate
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i
+                      class="bi bi-check-circle-fill"></i> Semi-landscape on the front area
+                  </li>
+                  <li class="col-12 col-md-12 col-lg-12" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> With free simple sala set, four-seater dining set and bed
+                    with foam
+                  </li>
                 </ul>
               </div>
+
               <div class="col-lg-4 order-1 order-lg-2 text-center">
-                <img src="assets/img/house-model3.svg" class="img-fluid" width="80%">
+                <img src="assets/img/iii/Angelo4.jpg" class="img-fluid" width="90%" style="padding: 20px 0px;">
               </div>
             </div>
+
+            <p style="font-size: 12px; text-align: center;">
+              Disclaimer: Prestige Homes and Realty Development Corporation shall have the right to change the
+              specifications specified herein as may be deemed necessary without prior notice.
+            </p>
+
           </div><!-- End Tab Content 4 -->
 
         </div>
@@ -606,51 +1016,56 @@
     <section id="features" class="featuresss">
       <div class="container" data-aos="fade-up">
 
-        <div class="section-features">
+        <div class="section-featuresss">
           <h2>Granville Crest House Model</h2>
+          <p>Move into your new home with the least of worries. Granville Crest has six model houses: Mathew 1, Mathew
+            2, Gabriel, John, and Rafael. With quality building design and well-thought-out space planning, the
+            Granville is made to be flood-free and constructed with only high-quality concrete products supplied by
+            Prestige’s sister company, KSBAIC. Granville Crest is a contemporary residence that offers an exceptional
+            lifestyle of superior space and comfort.</p>
         </div>
 
         <ul class="nav nav-tabs row gy-4 d-flex">
 
           <li class="nav-item col-6 col-md-4 col-lg-2">
             <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tab-1">
-              <img src="./assets/img/house-model.svg" width="25%">
-              <h4>Matthew</h4>
+              <img src="./assets/img/features/house-model.svg" width="25%">
+              <h4>Matthew 1</h4>
             </a>
           </li><!-- End Tab 1 Nav -->
 
           <li class="nav-item col-6 col-md-4 col-lg-2">
             <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
-              <img src="./assets/img/house-model1.svg" width="25%">
-              <h4>Michael</h4>
+              <img src="./assets/img/features/house-model1.svg" width="25%">
+              <h4>Matthew 2</h4>
             </a>
           </li><!-- End Tab 2 Nav -->
 
           <li class="nav-item col-6 col-md-4 col-lg-2">
             <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3">
-              <img src="./assets/img/house-model2.svg" width="25%">
-              <h4>Gabriel</h4>
+              <img src="./assets/img/features/house-model2.svg" width="25%">
+              <h4>Michael</h4>
             </a>
           </li><!-- End Tab 3 Nav -->
 
           <li class="nav-item col-6 col-md-4 col-lg-2">
             <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-4">
-              <img src="./assets/img/house-model3.svg" width="25%">
-              <h4>John</h4>
+              <img src="./assets/img/features/house-model3.svg" width="25%">
+              <h4>Gabriel</h4>
             </a>
           </li><!-- End Tab 4 Nav -->
 
           <li class="nav-item col-6 col-md-4 col-lg-2">
             <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-5">
-              <img src="./assets/img/house-model4.svg" width="25%">
-              <h4>Rafael</h4>
+              <img src="./assets/img/features/house-model4.svg" width="25%">
+              <h4>John</h4>
             </a>
           </li><!-- End Tab 5 Nav -->
 
           <li class="nav-item col-6 col-md-4 col-lg-2">
             <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-6">
-              <img src="./assets/img/house-model5.svg" width="25%">
-              <h4>Matthew 2</h4>
+              <img src="./assets/img/features/house-model5.svg" width="25%">
+              <h4>Rafael</h4>
             </a>
           </li><!-- End Tab 6 Nav -->
 
@@ -661,194 +1076,436 @@
           <div class="tab-pane active show" id="tab-1">
             <div class="row gy-4">
               <div class="col-lg-8 order-2 order-lg-1" data-aos="fade-right" data-aos-delay="800">
-                <h3>Matthew Model</h3>
+                <h3>Matthew 1 Model</h3>
                 <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                  dolore
-                  magna aliqua.
+                  A Single attached 2-storey unit with spacious living room area for a family gathering. With 4 bedrooms
+                  and 3 toilets and bath.
                 </p>
-                <ul>
-                  <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                <ul class="nav nav-tabs row gy-4 d-flex">
+                  <li class="nav-item col-4 col-md-3 col-lg-3">
+                    <a class="granvillecrest">
+                      <img src="./assets/img/features/square-layout.svg" width="25%">
+                      <h4>130 sqm</h4>
+                      <p>Lot Area</p>
+                    </a>
                   </li>
-                  <li><i class="bi bi-check-circle-fill"></i> Duis aute irure dolor in reprehenderit in voluptate velit.
+                  <li class="nav-item col-4 col-md-3 col-lg-3">
+                    <a class="granvillecrest">
+                      <img src="./assets/img/features/square.svg" width="25%">
+                      <h4>70 sqm</h4>
+                      <p>Floor Area</p>
+                    </a>
                   </li>
-                  <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat
-                    nulla pariatur.</li>
+                  <li class="nav-item col-4 col-md-3 col-lg-3">
+                    <a class="granvillecrest">
+                      <img src="./assets/img/features/shower-svgrepo.svg" width="25%">
+                      <h4>3</h4>
+                      <p>Toilet & Bath</p>
+                    </a>
+                  </li>
                 </ul>
-                <p>
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                  voluptate
-                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                  sunt in
-                  culpa qui officia deserunt mollit anim id est laborum
-                </p>
+                <ul class="nav nav-tabs row gy-4 d-flex">
+                  <li class="nav-item col-4 col-md-3 col-lg-3">
+                    <a class="granvillecrest">
+                      <img src="./assets/img/features/bed-svgrepo.svg" width="25%">
+                      <h4>4</h4>
+                      <p>Bedrooms</p>
+                    </a>
+                  </li>
+                  <li class="nav-item col-4 col-md-3 col-lg-3">
+                    <a class="granvillecrest">
+                      <img src="./assets/img/features/car-svgrepo.svg" width="25%">
+                      <h4>Carport</h4>
+                    </a>
+                  </li>
+                </ul>
+                <p>Additional Features:</p>
+                <ul class="row mobtab gy-4 d-flex">
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i
+                      class="bi bi-check-circle-fill"></i> Built-in closet on all bedrooms
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i
+                      class="bi bi-check-circle-fill"></i> Concrete flooring on the laundry area
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> Modified clothes hanger on dry area
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> With steel window grills
+                  </li>
+                  <li class="col-12 col-md-12 col-lg-11" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> With a semi-finished concrete fence, steel vehicular gate,
+                    and pedestrian gate (Applicable for SEDAN model unit Car)
+                  </li>
+                </ul>
               </div>
+
               <div class="col-lg-4 order-1 order-lg-2 text-center" data-aos="fade-left" data-aos-delay="1000">
-                <img src="assets/img/house-model.svg" class="img-fluid" width="80%">
+                <img src="assets/img/crest/Mathew-1-768x768.jpg" class="img-fluid" width="90%"
+                  style="padding: 80px 0px;">
               </div>
             </div>
+
+            <p style="font-size: 12px; text-align: center;">
+              Disclaimer: Prestige Homes and Realty Development Corporation shall have the right to change the
+              specifications specified herein as may be deemed necessary without prior notice.
+            </p>
+
           </div><!-- End Tab Content 1 -->
 
           <div class="tab-pane" id="tab-2">
             <div class="row gy-4">
               <div class="col-lg-8 order-2 order-lg-1">
-                <h3>Michael Model</h3>
-                <p>
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                  voluptate
-                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                  sunt in
-                  culpa qui officia deserunt mollit anim id est laborum
-                </p>
+                <h3>Matthew 2 Model</h3>
                 <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                  dolore
-                  magna aliqua.
+                  A single attached 2-storey unit with spacious living room area for family gatherings. With 4 bedrooms
+                  and 3 toilets and bath.
                 </p>
-                <ul>
-                  <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                <ul class="nav nav-tabs row gy-4 d-flex">
+                  <li class="nav-item col-4 col-md-3 col-lg-3">
+                    <a class="granvillecrest">
+                      <img src="./assets/img/features/square-layout.svg" width="25%">
+                      <h4>130 sqm</h4>
+                      <p>Lot Area</p>
+                    </a>
                   </li>
-                  <li><i class="bi bi-check-circle-fill"></i> Duis aute irure dolor in reprehenderit in voluptate velit.
+                  <li class="nav-item col-4 col-md-3 col-lg-3">
+                    <a class="granvillecrest">
+                      <img src="./assets/img/features/square.svg" width="25%">
+                      <h4>70 sqm</h4>
+                      <p>Floor Area</p>
+                    </a>
                   </li>
-                  <li><i class="bi bi-check-circle-fill"></i> Provident mollitia neque rerum asperiores dolores quos qui
-                    a. Ipsum neque dolor voluptate nisi sed.</li>
-                  <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat
-                    nulla pariatur.</li>
+                  <li class="nav-item col-4 col-md-3 col-lg-3">
+                    <a class="granvillecrest">
+                      <img src="./assets/img/features/shower-svgrepo.svg" width="25%">
+                      <h4>3</h4>
+                      <p>Toilet & Bath</p>
+                    </a>
+                  </li>
+                </ul>
+                <ul class="nav nav-tabs row gy-4 d-flex">
+                  <li class="nav-item col-4 col-md-3 col-lg-3">
+                    <a class="granvillecrest">
+                      <img src="./assets/img/features/bed-svgrepo.svg" width="25%">
+                      <h4>4</h4>
+                      <p>Bedrooms</p>
+                    </a>
+                  </li>
+                  <li class="nav-item col-4 col-md-3 col-lg-3">
+                    <a class="granvillecrest">
+                      <img src="./assets/img/features/car-svgrepo.svg" width="25%">
+                      <h4>Carport</h4>
+                    </a>
+                  </li>
+                </ul>
+                <p>Additional Features:</p>
+                <ul class="row mobtab gy-4 d-flex">
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i
+                      class="bi bi-check-circle-fill"></i> Built-in closet on all bedrooms
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i
+                      class="bi bi-check-circle-fill"></i> Concrete flooring on the laundry area
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> Modified clothes hanger on dry area
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> With steel window grills
+                  </li>
+                  <li class="col-12 col-md-12 col-lg-11" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> With a semi-finished concrete fence, steel vehicular gate,
+                    and pedestrian gate (Applicable for SEDAN model unit Car)
+                  </li>
                 </ul>
               </div>
+
               <div class="col-lg-4 order-1 order-lg-2 text-center">
-                <img src="assets/img/house-model1.svg" class="img-fluid" width="80%">
+                <img src="assets/img/crest/Mathew-2-768x768.jpg" class="img-fluid" width="90%"
+                  style="padding: 80px 0px;">
               </div>
             </div>
+
+            <p style="font-size: 12px; text-align: center;">
+              Disclaimer: Prestige Homes and Realty Development Corporation shall have the right to change the
+              specifications specified herein as may be deemed necessary without prior notice.
+            </p>
+
           </div><!-- End Tab Content 2 -->
 
           <div class="tab-pane" id="tab-3">
             <div class="row gy-4">
               <div class="col-lg-8 order-2 order-lg-1">
-                <h3>Gabriel Model</h3>
-                <p>
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                  voluptate
-                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                  sunt in
-                  culpa qui officia deserunt mollit anim id est laborum
-                </p>
-                <ul>
-                  <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </li>
-                  <li><i class="bi bi-check-circle-fill"></i> Duis aute irure dolor in reprehenderit in voluptate velit.
-                  </li>
-                  <li><i class="bi bi-check-circle-fill"></i> Provident mollitia neque rerum asperiores dolores quos qui
-                    a. Ipsum neque dolor voluptate nisi sed.</li>
-                </ul>
+                <h3>Michael Model</h3>
                 <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                  dolore
-                  magna aliqua.
+                  Bungalow housing unit with 2 bedrooms and 2 toilets and bath.
                 </p>
+                <ul class="nav nav-tabs row gy-4 d-flex">
+                  <li class="nav-item col-4 col-md-3 col-lg-3">
+                    <a class="granvillecrest">
+                      <img src="./assets/img/features/square-layout.svg" width="25%">
+                      <h4>100 sqm</h4>
+                      <p>Lot Area</p>
+                    </a>
+                  </li>
+                  <li class="nav-item col-4 col-md-3 col-lg-3">
+                    <a class="granvillecrest">
+                      <img src="./assets/img/features/square.svg" width="25%">
+                      <h4>78 sqm</h4>
+                      <p>Floor Area</p>
+                    </a>
+                  </li>
+                  <li class="nav-item col-4 col-md-3 col-lg-3">
+                    <a class="granvillecrest">
+                      <img src="./assets/img/features/shower-svgrepo.svg" width="25%">
+                      <h4>2</h4>
+                      <p>Toilet & Bath</p>
+                    </a>
+                  </li>
+                </ul>
+                <ul class="nav nav-tabs row gy-4 d-flex">
+                  <li class="nav-item col-4 col-md-3 col-lg-3">
+                    <a class="granvillecrest">
+                      <img src="./assets/img/features/bed-svgrepo.svg" width="25%">
+                      <h4>2</h4>
+                      <p>Bedrooms</p>
+                    </a>
+                  </li>
+                  <li class="nav-item col-4 col-md-3 col-lg-3">
+                    <a class="granvillecrest">
+                      <img src="./assets/img/features/car-svgrepo.svg" width="25%">
+                      <h4>Carport</h4>
+                    </a>
+                  </li>
+                </ul>
+                <p>Additional Features:</p>
+                <ul class="row mobtab gy-4 d-flex">
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i
+                      class="bi bi-check-circle-fill"></i> Built-in closet on all bedrooms
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i
+                      class="bi bi-check-circle-fill"></i> Concrete flooring on the laundry area
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> Modified clothes hanger on dry area
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> With steel window grills
+                  </li>
+                  <li class="col-12 col-md-12 col-lg-11" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> With a semi-finished concrete fence, steel vehicular gate,
+                    and pedestrian gate (Applicable for SEDAN model unit Car)
+                  </li>
+                </ul>
               </div>
+
               <div class="col-lg-4 order-1 order-lg-2 text-center">
-                <img src="assets/img/house-model2.svg" class="img-fluid" width="80%">
+                <img src="assets/img/crest/MICHAEL-768x768.jpg" class="img-fluid" width="90%"
+                  style="padding: 80px 0px;">
               </div>
             </div>
+
+            <p style="font-size: 12px; text-align: center;">
+              Disclaimer: Prestige Homes and Realty Development Corporation shall have the right to change the
+              specifications specified herein as may be deemed necessary without prior notice.
+            </p>
+
           </div><!-- End Tab Content 3 -->
 
           <div class="tab-pane" id="tab-4">
             <div class="row gy-4">
               <div class="col-lg-8 order-2 order-lg-1">
-                <h3>John Model</h3>
-                <p>
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                  voluptate
-                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                  sunt in
-                  culpa qui officia deserunt mollit anim id est laborum
-                </p>
+                <h3>Gabriel Model</h3>
                 <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                  dolore
-                  magna aliqua.
+                  Bungalow housing unit with 2 bedrooms and 2 toilets and bath.
                 </p>
-                <ul>
-                  <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                <ul class="nav nav-tabs row gy-4 d-flex">
+                  <li class="nav-item col-6 col-md-3 col-lg-3">
+                    <a class="granvillecrest">
+                      <img src="./assets/img/features/square-layout.svg" width="25%">
+                      <h4>80 sqm</h4>
+                      <p>Lot Area</p>
+                    </a>
                   </li>
-                  <li><i class="bi bi-check-circle-fill"></i> Duis aute irure dolor in reprehenderit in voluptate velit.
+                  <li class="nav-item col-6 col-md-3 col-lg-3">
+                    <a class="granvillecrest">
+                      <img src="./assets/img/features/square.svg" width="25%">
+                      <h4>36 sqm</h4>
+                      <p>Floor Area</p>
+                    </a>
                   </li>
-                  <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat
-                    nulla pariatur.</li>
+                  <li class="nav-item col-6 col-md-3 col-lg-3">
+                    <a class="granvillecrest">
+                      <img src="./assets/img/features/shower-svgrepo.svg" width="25%">
+                      <h4>1</h4>
+                      <p>Toilet & Bath</p>
+                    </a>
+                  </li>
+                  <li class="nav-item col-6 col-md-3 col-lg-3">
+                    <a class="granvillecrest">
+                      <img src="./assets/img/features/bed-svgrepo.svg" width="25%">
+                      <h4>2</h4>
+                      <p>Bedrooms</p>
+                    </a>
+                  </li>
+                </ul>
+                <p>Additional Features:</p>
+                <ul class="row mobtab gy-4 d-flex">
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i
+                      class="bi bi-check-circle-fill"></i> Built-in closet on all bedrooms
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i
+                      class="bi bi-check-circle-fill"></i> Concrete flooring on the laundry area
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> Modified clothes hanger on dry area
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> With steel window grills
+                  </li>
+                  <li class="col-12 col-md-12 col-lg-11" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> With a semi-finished concrete fence, steel vehicular gate,
+                    and pedestrian gate (Applicable for SEDAN model unit Car)
+                  </li>
                 </ul>
               </div>
+
               <div class="col-lg-4 order-1 order-lg-2 text-center">
-                <img src="assets/img/house-model3.svg" class="img-fluid" width="80%">
+                <img src="assets/img/crest/Gabriel-768x768.jpg" class="img-fluid" width="90%"
+                  style="padding: 30px 0px;">
               </div>
             </div>
+
+            <p style="font-size: 12px; text-align: center;">
+              Disclaimer: Prestige Homes and Realty Development Corporation shall have the right to change the
+              specifications specified herein as may be deemed necessary without prior notice.
+            </p>
+
           </div><!-- End Tab Content 4 -->
 
           <div class="tab-pane" id="tab-5">
             <div class="row gy-4">
               <div class="col-lg-8 order-2 order-lg-1">
-                <h3>Rafael Model</h3>
-                <p>
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                  voluptate
-                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                  sunt in
-                  culpa qui officia deserunt mollit anim id est laborum
-                </p>
-                <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                  dolore
-                  magna aliqua.
-                </p>
-                <ul>
-                  <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                <h3>John Model</h3>
+                <ul class="nav nav-tabs row gy-4 d-flex">
+                  <li class="nav-item col-6 col-md-3 col-lg-3">
+                    <a class="granvillecrest">
+                      <img src="./assets/img/features/square-layout.svg" width="25%">
+                      <h4>70 sqm</h4>
+                      <p>Lot Area</p>
+                    </a>
                   </li>
-                  <li><i class="bi bi-check-circle-fill"></i> Duis aute irure dolor in reprehenderit in voluptate velit.
+                  <li class="nav-item col-6 col-md-3 col-lg-3">
+                    <a class="granvillecrest">
+                      <img src="./assets/img/features/square.svg" width="25%">
+                      <h4>36 sqm</h4>
+                      <p>Floor Area</p>
+                    </a>
                   </li>
-                  <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat
-                    nulla pariatur.</li>
+                  <li class="nav-item col-6 col-md-3 col-lg-3">
+                    <a class="granvillecrest">
+                      <img src="./assets/img/features/shower-svgrepo.svg" width="25%">
+                      <h4>1</h4>
+                      <p>Toilet & Bath</p>
+                    </a>
+                  </li>
+                  <li class="nav-item col-6 col-md-3 col-lg-3">
+                    <a class="granvillecrest">
+                      <img src="./assets/img/features/bed-svgrepo.svg" width="25%">
+                      <h4>2</h4>
+                      <p>Bedrooms</p>
+                    </a>
+                  </li>
+                </ul>
+                <p>Additional Features:</p>
+                <ul class="row mobtab gy-4 d-flex">
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i
+                      class="bi bi-check-circle-fill"></i> Concrete flooring on the laundry area
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i
+                      class="bi bi-check-circle-fill"></i> Modified clothes hanger on dry area
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> With a concrete fence and pedestrian gate
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i> With Free Simple Sala Set, 4-seater Dining Set, & Bed with
+                    Foam
+                  </li>
                 </ul>
               </div>
+
               <div class="col-lg-4 order-1 order-lg-2 text-center">
-                <img src="assets/img/house-model4.svg" class="img-fluid" width="80%">
+                <img src="assets/img/crest/JOHN-768x768.jpg" class="img-fluid" width="90%" style="padding: 10px 0px;">
               </div>
             </div>
+
+            <p style="font-size: 12px; text-align: center; padding-top: 20px;">
+              Disclaimer: Prestige Homes and Realty Development Corporation shall have the right to change the
+              specifications specified herein as may be deemed necessary without prior notice.
+            </p>
+
           </div><!-- End Tab Content 5 -->
 
           <div class="tab-pane" id="tab-6">
             <div class="row gy-4">
               <div class="col-lg-8 order-2 order-lg-1">
-                <h3>Matthew 2 Model</h3>
-                <p>
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                  voluptate
-                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                  sunt in
-                  culpa qui officia deserunt mollit anim id est laborum
-                </p>
-                <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                  dolore
-                  magna aliqua.
-                </p>
-                <ul>
-                  <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                <h3>Rafael Model</h3>
+                <ul class="nav nav-tabs row gy-4 d-flex">
+                  <li class="nav-item col-6 col-md-3 col-lg-3">
+                    <a class="granvillecrest">
+                      <img src="./assets/img/features/square-layout.svg" width="25%">
+                      <h4>50 sqm</h4>
+                      <p>Lot Area</p>
+                    </a>
                   </li>
-                  <li><i class="bi bi-check-circle-fill"></i> Duis aute irure dolor in reprehenderit in voluptate velit.
+                  <li class="nav-item col-6 col-md-3 col-lg-3">
+                    <a class="granvillecrest">
+                      <img src="./assets/img/features/square.svg" width="25%">
+                      <h4>32.53 sqm</h4>
+                      <p>Floor Area</p>
+                    </a>
                   </li>
-                  <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat
-                    nulla pariatur.</li>
+                  <li class="nav-item col-6 col-md-3 col-lg-3">
+                    <a class="granvillecrest">
+                      <img src="./assets/img/features/shower-svgrepo.svg" width="25%">
+                      <h4>1</h4>
+                      <p>Toilet & Bath</p>
+                    </a>
+                  </li>
+                  <li class="nav-item col-6 col-md-3 col-lg-3">
+                    <a class="granvillecrest">
+                      <img src="./assets/img/features/bed-svgrepo.svg" width="25%">
+                      <h4>2</h4>
+                      <p>Bedrooms</p>
+                    </a>
+                  </li>
+                </ul>
+                <p>Additional Features:</p>
+                <ul class="row mobtab gy-4 d-flex">
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i
+                      class="bi bi-check-circle-fill"></i> Flooring- Plain cement plaster finish
+                  </li>
+                  <li class="col-12 col-md-6 col-lg-6" style="padding-bottom: 0px;margin-top: 10px;"><i
+                      class="bi bi-check-circle-fill"></i> With a concrete fence and pedestrian gate
+                  </li>
+                  <li class="col-12 col-md-12 col-lg-12" style="padding-bottom: 0px;margin-top: 0px;"><i
+                      class="bi bi-check-circle-fill"></i>With Free Simple Sala Set, 4-seater Dining Set, & Bed with
+                    Foam
+                  </li>
                 </ul>
               </div>
+
               <div class="col-lg-4 order-1 order-lg-2 text-center">
-                <img src="assets/img/house-model5.svg" class="img-fluid" width="80%">
+                <img src="assets/img/crest/rafa.png" class="img-fluid" width="90%" style="padding: 10px 0px;">
               </div>
             </div>
+
+            <p style="font-size: 12px; text-align: center; padding-top: 20px;">
+              Disclaimer: Prestige Homes and Realty Development Corporation shall have the right to change the
+              specifications specified herein as may be deemed necessary without prior notice.
+            </p>
+
           </div><!-- End Tab Content 6 -->
 
         </div>
@@ -856,9 +1513,152 @@
       </div>
     </section><!-- End Features Section -->
 
+    <!-- ======= Features Section Amenities ======= -->
+    <section id="features" class="ffeatures">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-ffeatures">
+          <h2>Amenities</h2>
+        </div>
+
+        <ul class="nav nav-tabs row gy-4 d-flex">
+
+          <li class="nav-item col-6 col-md-6 col-lg-3">
+            <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#am-2">
+              <img src="./assets/img/features/house-model1.svg" width="25%">
+              <h4>Community Center</h4>
+            </a>
+          </li><!-- End Tab 2 Nav -->
+
+          <li class="nav-item col-6 col-md-6 col-lg-3">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#am-3">
+              <img src="./assets/img/features/house-model2.svg" width="25%">
+              <h4>Sports Center</h4>
+            </a>
+          </li><!-- End Tab 3 Nav -->
+
+          <li class="nav-item col-6 col-md-6 col-lg-3">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#am-4">
+              <img src="./assets/img/features/house-model3.svg" width="25%">
+              <h4>Parks and Play Ground</h4>
+            </a>
+          </li><!-- End Tab 3 Nav -->
+        </ul>
+
+        <div class="tab-content">
+
+          <div class="tab-pane active show" id="am-2">
+            <div class="row gy-4">
+              <div class="col-lg-12 order-2 order-lg-1" data-aos="fade-right" data-aos-delay="200">
+                <h3>Community Center</h3>
+                <h4>Club House</h4>
+                <p>
+                  For celebrating momentous family moments or social gatherings, the clubhouse and the subdivision’s
+                  generous, palm tree-lined natural landscaping make a delightful setting.
+                </p>
+              </div>
+            </div>
+            <ul class="box-container three-cols row gy-4 d-flex" style="margin-top: 10px;">
+              <li class="box col-lg-4 order-1 order-lg-2 text-center">
+                <div class="inner">
+                  <a href="assets/img/amenities/swimming-pooll.jpg" class="glightbox">
+                    <img src="assets/img/amenities/swimming-pooll.jpg" width="100%" />
+                  </a>
+                </div>
+              </li>
+              <li class="box col-lg-4 order-1 order-lg-2 text-center">
+                <div class="inner">
+                  <a href="assets/img/amenities/Clubhouse-3.jpg" class="glightbox">
+                    <img src="assets/img/amenities/Clubhouse-3.jpg" width="100%" />
+                  </a>
+                </div>
+              </li>
+              <li class="box col-lg-4 order-1 order-lg-2 text-center">
+                <div class="inner">
+                  <a href="assets/img/amenities/Swimming-Pool-crest.jpg" class="glightbox">
+                    <img src="assets/img/amenities/Swimming-Pool-crest.jpg" width="100%" />
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div><!-- End Tab Content 2 -->
+
+          <div class="tab-pane" id="am-3">
+            <div class="row gy-4">
+              <div class="col-lg-12 order-2 order-lg-1" data-aos="fade-right" data-aos-delay="200">
+                <h3>Sports Center</h3>
+                <h4>Basketball Court</h4>
+                <p>
+                  Sports-themed facilities including a swimming pool, badminton courts, and covered basketball court.
+                </p>
+              </div>
+            </div>
+            <ul class="box-container three-cols row gy-4 d-flex" style="margin-top: 10px;">
+              <li class="box col-lg-4 order-1 order-lg-2 text-center">
+                <div class="inner">
+                  <a href="assets/img/amenities/Basketball-Court-1.jpg" class="glightbox">
+                    <img src="assets/img/amenities/Basketball-Court-1.jpg" width="100%" />
+                  </a>
+                </div>
+              </li>
+              <li class="box col-lg-4 order-1 order-lg-2 text-center">
+                <div class="inner">
+                  <a href="assets/img/amenities/Basketball-Court-3.jpg" class="glightbox">
+                    <img src="assets/img/amenities/Basketball-Court-3.jpg" width="100%" />
+                  </a>
+                </div>
+              </li>
+              <li class="box col-lg-4 order-1 order-lg-2 text-center">
+                <div class="inner">
+                  <a href="assets/img/amenities/Covered-Court-crest.jpg" class="glightbox">
+                    <img src="assets/img/amenities/Covered-Court-crest.jpg" width="100%" />
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div><!-- End Tab Content 3 -->
+
+          <div class="tab-pane" id="am-4">
+            <div class="row gy-4">
+              <div class="col-lg-12 order-2 order-lg-1" data-aos="fade-right" data-aos-delay="200">
+                <h3>Parks and Play Ground</h3>
+                <h4>Children's Park</h4>
+                <p>
+                  Parks and a children’s playground make for healthy and leisurely living at Granville.
+                </p>
+              </div>
+            </div>
+            <ul class="box-container three-cols row gy-4 d-flex" style="margin-top: 10px;">
+              <li class="box col-lg-4 order-1 order-lg-2 text-center">
+                <div class="inner">
+                  <a href="assets/img/amenities/Play-Ground-1.jpg" class="glightbox">
+                    <img src="assets/img/amenities/Play-Ground-1.jpg" width="100%" />
+                  </a>
+                </div>
+              </li>
+              <li class="box col-lg-4 order-1 order-lg-2 text-center">
+                <div class="inner">
+                  <a href="assets/img/amenities/Play-Ground-3.jpg" class="glightbox">
+                    <img src="assets/img/amenities/Play-Ground-3.jpg" width="100%" />
+                  </a>
+                </div>
+              </li>
+              <li class="box col-lg-4 order-1 order-lg-2 text-center">
+                <div class="inner">
+                  <a href="assets/img/amenities/Play-Ground-crest.jpg" class="glightbox">
+                    <img src="assets/img/amenities/Play-Ground-crest.jpg" width="100%" />
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div><!-- End Tab Content 4 -->
+        </div>
+      </div>
+    </section><!-- End Features Section -->
+
     <!-- ======= Clients Section ======= -->
     <section id="clients" class="clients">
-      <div class="container" data-aos="zoom-out">
+      <div class="container">
 
         <div class="clients-slider swiper">
           <div class="swiper-wrapper align-items-center">
@@ -870,179 +1670,6 @@
 
       </div>
     </section><!-- End Clients Section -->
-
-    <!-- ======= Counts Section ======= -->
-    <section id="counts" class="counts" data-aos="fade-up">
-      <div class="container">
-
-        <div class="text-center title">
-          <h3>What we have achieved so far</h3>
-          <p>Iusto et labore modi qui sapiente xpedita tempora et aut non ipsum consequatur illo.</p>
-        </div>
-
-        <div class="row counters position-relative">
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="972" data-purecounter-duration="1"
-              class="purecounter"></span>
-            <p>Happy Clients</p>
-          </div>
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1"
-              class="purecounter"></span>
-            <p>Current Projects</p>
-          </div>
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1"
-              class="purecounter"></span>
-            <p>Completed Projects</p>
-          </div>
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1"
-              class="purecounter"></span>
-            <p>Hard Workers</p>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Counts Section -->
-
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio" data-aos="fade-up">
-
-      <div class="container">
-
-        <div class="section-header">
-          <h2>Portfolio</h2>
-          <p>Non hic nulla eum consequatur maxime ut vero memo vero totam officiis pariatur eos dolorum sed fug dolorem
-            est possimus esse quae repudiandae. Dolorem id enim officiis sunt deserunt esse soluta consequatur quaerat
-          </p>
-        </div>
-
-      </div>
-
-      <div class="container-fluid" data-aos="fade-up" data-aos-delay="200">
-
-        <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry"
-          data-portfolio-sort="original-order">
-
-          <div class="row g-0 portfolio-container">
-
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-app">
-              <img src="assets/img/portfolio/Matt-for-web.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Matthew House Model</h4>
-                <a href="assets/img/portfolio/Matt-for-web.jpg" data-gallery="portfolio-gallery"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-product">
-              <img src="assets/img/portfolio/Rafael-for-Web.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Rafael House Model</h4>
-                <a href="assets/img/portfolio/Rafael-for-Web.jpg" data-gallery="portfolio-gallery"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-branding">
-              <img src="assets/img/portfolio/Ken.JPG" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Ken Model House</h4>
-                <a href="assets/img/portfolio/Ken.JPG" data-gallery="portfolio-gallery"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-books">
-              <img src="assets/img/portfolio/Gabriel-for-Web.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Gabriel Model House</h4>
-                <a href="assets/img/portfolio/Gabriel-for-Web.jpg" data-gallery="portfolio-gallery"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-app">
-              <img src="assets/img/portfolio/Mark.JPG" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Mark Model House</h4>
-                <a href="assets/img/portfolio/Mark.JPG" data-gallery="portfolio-gallery"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-product">
-              <img src="assets/img/portfolio/Mike.JPG" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Mike Model House</h4>
-                <a href="assets/img/portfolio/Mike.JPG" data-gallery="portfolio-gallery"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-branding">
-              <img src="assets/img/portfolio/John-for-Web.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>John Model House</h4>
-                <a href="assets/img/portfolio/John-for-Web.jpg" data-gallery="portfolio-gallery"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-books">
-              <img src="assets/img/portfolio/Angelo-new.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Angelo Model House</h4>
-                <a href="assets/img/portfolio/Angelo-new.jpg" data-gallery="portfolio-gallery"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-app">
-              <img src="assets/img/portfolio/Adrian-new.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Adrian Model House</h4>
-                <a href="assets/img/portfolio/Adrian-new.jpg" data-gallery="portfolio-gallery"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-product">
-              <img src="assets/img/portfolio/CINDY.JPG" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Cindy Model House</h4>
-                <a href="assets/img/portfolio/CINDY.JPG" data-gallery="portfolio-gallery"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-branding">
-              <img src="assets/img/portfolio/John-for-Web.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>John Model House</h4>
-                <a href="assets/img/portfolio/John-for-Web.jpg" data-gallery="portfolio-gallery"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-books">
-              <img src="assets/img/portfolio/Mike.JPG" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Matthew House Model</h4>
-                <a href="assets/img/portfolio/Mike.JPG" data-gallery="portfolio-gallery"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-          </div><!-- End Portfolio Container -->
-        </div>
-      </div>
-    </section><!-- End Portfolio Section -->
 
   </main><!-- End #main -->
 
@@ -1091,6 +1718,66 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
+  <script>
+    let slideIndex = 0;
+    showSlides();
+
+    // Next-previous control
+    function nextSlide() {
+      slideIndex++;
+      showSlides();
+      timer = _timer; // reset timer
+    }
+
+    function prevSlide() {
+      slideIndex--;
+      showSlides();
+      timer = _timer;
+    }
+
+    // Thumbnail image controlls
+    function currentSlide(n) {
+      slideIndex = n - 1;
+      showSlides();
+      timer = _timer;
+    }
+
+    function showSlides() {
+      let slides = document.querySelectorAll(".mySlides");
+      let dots = document.querySelectorAll(".dots");
+
+      if (slideIndex > slides.length - 1) slideIndex = 0;
+      if (slideIndex < 0) slideIndex = slides.length - 1;
+
+      // hide all slides
+      slides.forEach((slide) => {
+        slide.style.display = "none";
+      });
+
+      // show one slide base on index number
+      slides[slideIndex].style.display = "block";
+
+      dots.forEach((dot) => {
+        dot.classList.remove("active");
+      });
+
+      dots[slideIndex].classList.add("active");
+    }
+
+    // autoplay slides --------
+    let timer = 7; // sec
+    const _timer = timer;
+
+    // this function runs every 1 second
+    setInterval(() => {
+      timer--;
+
+      if (timer < 1) {
+        nextSlide();
+        timer = _timer; // reset timer
+      }
+    }, 1000); // 1sec
+  </script>
 </body>
 
 </html>
