@@ -271,9 +271,9 @@ section {
   font-size: 17px;
   padding: .33em .5em;
   -webkit-font-smoothing: antialiased;
-  color: var(--color-secondary);
+  color: #fff;
   position: static;
-  background-color: var(--color-primary);
+  background-color: #1A654C;
 }
 
 #notification-bar .regular {
@@ -1055,6 +1055,7 @@ section {
   .featured-services .service-item1 {
     padding: 10px;
   }
+
   .featured-services .container .featured-p {
     text-align: justify;
     font-size: 13px;
@@ -1883,6 +1884,7 @@ section {
     margin-top: 10px !important;
   }
 }
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -2073,10 +2075,9 @@ section {
 # Carousel
 --------------------------------------------------------------*/
 .carousel-container {
-  border-radius: 30px;
+  border-radius: 15px;
   overflow: hidden;
-  max-width: max-content;
-  max-height: 420px;
+  max-width: 65%;
   position: relative;
   box-shadow: 0 0 30px -20px #223344;
   margin: auto;
@@ -2137,6 +2138,21 @@ section {
     transform: scale(1) rotateY(0deg);
   }
 }
+
+@media (max-width: 425px) {
+  .carousel-container {
+    max-width: 100%;
+    max-height: max-content;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+  .carousel-container {
+    max-width: 90%;
+    max-height: max-content;
+  }
+}
+
 /*--------------------------------------------------------------
 # g1 Amenities Carousel
 --------------------------------------------------------------*/
@@ -2207,6 +2223,7 @@ section {
     margin: 0px 135px;
   }
 }
+
 /*--------------------------------------------------------------
 # g3 Amenities Carousel
 --------------------------------------------------------------*/
@@ -2277,6 +2294,7 @@ section {
     margin: 0px 135px;
   }
 }
+
 /*--------------------------------------------------------------
 # crest Amenities Carousel
 --------------------------------------------------------------*/
@@ -2342,6 +2360,76 @@ section {
 
 @media (min-width: 768px) and (max-width: 990px) {
   .amenitiescrest {
+    max-width: 60%;
+    max-height: none;
+    margin: 0px 135px;
+  }
+}
+
+/*--------------------------------------------------------------
+# modelll
+--------------------------------------------------------------*/
+.slidess {
+  border-radius: 15px;
+  overflow: hidden;
+  max-width: max-content;
+  max-height: 420px;
+  position: relative;
+  box-shadow: 0 0 30px -20px #223344;
+  margin: 40px 0px;
+  z-index: 0;
+}
+
+/* Hide the images by default */
+.hmslides {
+  display: none;
+}
+
+.hmslides img {
+  display: block;
+  width: 100%;
+}
+
+.hmsdots-container {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+/* The dots/bullets/indicators */
+.hmsdots {
+  cursor: pointer;
+  height: 14px;
+  width: 14px;
+  margin: 0 4px;
+  background-color: rgba(173, 216, 230, 0.2);
+  backdrop-filter: blur(2px);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+/* transition animation */
+.animate {
+  -webkit-animation-name: animate;
+  -webkit-animation-duration: 1s;
+  animation-name: animate;
+  animation-duration: 2s;
+}
+
+@keyframes animate {
+  from {
+    transform: scale(1.1) rotateY(10deg);
+  }
+
+  to {
+    transform: scale(1) rotateY(0deg);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+  .hmslides {
     max-width: 60%;
     max-height: none;
     margin: 0px 135px;

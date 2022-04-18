@@ -120,7 +120,7 @@ showSlidesss();
 
 
 // Thumbnail image controlls
-function gtweeSlides(n) {
+function gtweeSlide(n) {
     slideIndexsss = n - 1;
     showSlidesss();
     timerss = _timerss;
@@ -175,7 +175,7 @@ showSlidessss();
 
 
 // Thumbnail image controlls
-function crestSlides(n) {
+function gwannSlide(n) {
     slideIndexssss = n - 1;
     showSlidessss();
     timersss = _timersss;
