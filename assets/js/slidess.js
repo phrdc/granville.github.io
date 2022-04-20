@@ -4,7 +4,7 @@
 // Enlarges images on click
 
 
-var gallery_info = {imgs: [], currentIndex: 0}, gallery_counter, gallery_buttons;
+var gallery_info = {imgs: [], currentIndex: 0}, gallery_buttons;
 
 
 function id(id) {
@@ -19,8 +19,6 @@ function displayImg(src) {
 	
 		// update counter if applicable
 	if(gallery_info.imgs.length > 1) {
-			// set the counter
-		gallery_counter.innerHTML = (parseInt(gallery_info.currentIndex) + 1) + "/" + gallery_info.imgs.length;
 		
 			// show buttons
 		for(var i = 0; i < gallery_buttons.length; i++) {
@@ -71,7 +69,6 @@ function unenlargeImg() {
 		// Close
 	id("enlarged-image").parentNode.classList.remove("open");
 	
-	gallery_counter.innerHTML = "1/1";
 }
 
 
@@ -170,7 +167,7 @@ window.addEventListener("load", function() {
 	
 	
 		// Set up big img element
-	var el = document.createElement("div"), prevBtn = document.createElement("div"), nextBtn = document.createElement("div"), counter = document.createElement("span");
+	var el = document.createElement("div"), prevBtn = document.createElement("div"), nextBtn = document.createElement("div");
 	
 
 			// image
@@ -199,18 +196,11 @@ window.addEventListener("load", function() {
 	}
 	
 	
-			// counter
-	counter.innerHTML = "1/1";
-	counter.classList.add("img-enlarged__counter");
-	counter.classList.add("nosel");
-	
 	
 	el.appendChild(prevBtn);
-	el.appendChild(counter);
 	el.appendChild(nextBtn);
 	document.body.appendChild(el);
 	
-	gallery_counter = counter;
 	gallery_buttons = [prevBtn, nextBtn];
 	
 });

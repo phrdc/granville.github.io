@@ -1338,7 +1338,7 @@ section {
   }
 
   .features .tab-content .tab-pane .granvillewan {
-    padding: 25px 5px;
+    padding: 10px 0px;
     margin: 0px;
   }
 
@@ -2365,76 +2365,6 @@ section {
     margin: 0px 135px;
   }
 }
-
-/*--------------------------------------------------------------
-# modelll
---------------------------------------------------------------*/
-.slidess {
-  border-radius: 15px;
-  overflow: hidden;
-  max-width: max-content;
-  max-height: 420px;
-  position: relative;
-  box-shadow: 0 0 30px -20px #223344;
-  margin: 40px 0px;
-  z-index: 0;
-}
-
-/* Hide the images by default */
-.hmslides {
-  display: none;
-}
-
-.hmslides img {
-  display: block;
-  width: 100%;
-}
-
-.hmsdots-container {
-  position: absolute;
-  bottom: 10px;
-  left: 50%;
-  transform: translate(-50%);
-}
-
-/* The dots/bullets/indicators */
-.hmsdots {
-  cursor: pointer;
-  height: 14px;
-  width: 14px;
-  margin: 0 4px;
-  background-color: rgba(173, 216, 230, 0.2);
-  backdrop-filter: blur(2px);
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.3s ease;
-}
-
-/* transition animation */
-.animate {
-  -webkit-animation-name: animate;
-  -webkit-animation-duration: 1s;
-  animation-name: animate;
-  animation-duration: 2s;
-}
-
-@keyframes animate {
-  from {
-    transform: scale(1.1) rotateY(10deg);
-  }
-
-  to {
-    transform: scale(1) rotateY(0deg);
-  }
-}
-
-@media (min-width: 768px) and (max-width: 990px) {
-  .hmslides {
-    max-width: 60%;
-    max-height: none;
-    margin: 0px 135px;
-  }
-}
 /*--------------------------------------------------------------
 # tablee
 --------------------------------------------------------------*/
@@ -2485,7 +2415,6 @@ table {
 .img-enlarged {
 	max-width: 90%;
 	max-height: 80%;
-	border: 5px solid #eee;
 	display: block;
 	margin: auto !important;
 	
@@ -2494,42 +2423,41 @@ table {
 
 .img-enlarged__nav.next::after {
 	content: ">";
-	font-size: 50px;
+	font-size: 40px;
 	font-family: monospace;
 	color: #fff;
-	position: absolute; right: 40%; top: 49%;
+	position: absolute; right: 27%; top: 49%;
 }
 .img-enlarged__nav.prev::after {
 	content: "<";
-	font-size: 50px;
+	font-size: 40px;
 	font-family: monospace;
 	color: #fff;
-	position: absolute; left: 40%; top: 49%;
+	position: absolute; left: 27%; top: 49%;
 }
 
 
 .gallery img {
-	cursor: zoom-in;
+	cursor: pointer;
+  margin: 65px 0px;
 }
 
 
 .img-enlarged__nav {
-	background: rgba(0,0,0,0.2);
 	cursor: pointer;
 	z-index: 999;
 	text-align: center;
 	height: 100%;
-	width: 10%;
+	width: 3%;
 	vertical-align: middle;
 	transition: 0.3s width, 0.2s background;
 }
 .img-enlarged__nav:hover {
-	background: rgba(0,0,0,0.8);
-	width: 11%;
+	width: 3%;
 	transition: 0.3s width, 0.2s background;
 }
 .img-enlarged__nav:active {
-	width: 12%;
+	width: 3%;
 	transition: 0.1s width;
 }
 
@@ -2548,16 +2476,39 @@ table {
 }
 
 
-.img-enlarged__counter {
-	background: rgba(0,0,0,0.5);
-	color: #fff;
-	font-family: monospace;
-	width: 50px;
-	text-align: center;
-	font-size: 15px;
-	padding: 7px 0 7px 0;
-	margin: auto !important;
-	display: block;
-	
-	position: absolute; left: 49%; bottom: 5%;
+@media (max-width:425px) {
+  .gallery img {
+    margin: 20px 0px;
+  }
+  .img-enlarged {
+    top: 30%; 
+  }
+  .img-enlarged__nav.next::after {
+    font-size: 26px;
+    right: 0%;
+    top: 45%;
+  }
+  .img-enlarged__nav.prev::after {
+    font-size: 26px;
+    left: 0%;
+    top: 45%;
+  }
+}
+@media (min-width: 768px) and (max-width: 990px) {
+  .gallery img {
+    margin: 0px 0px;
+  }
+  .img-enlarged {
+    top: 20%;
+  }
+  .img-enlarged__nav.next::after {
+    font-size: 50px;
+    right: 10%;
+    top: 45%;
+  }
+  .img-enlarged__nav.prev::after {
+    font-size: 50px;
+    left: 10%;
+    top: 45%;
+  }
 }
