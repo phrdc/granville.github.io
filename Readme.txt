@@ -1,9 +1,5 @@
 Thanks for downloading this template!
 
-Template Name: HeroBiz
-Template URL: https://bootstrapmade.com/herobiz-bootstrap-business-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
-
-
-test
+Template Name: Granville
+Template URL: https://granville.ph/
+Author: Prestige Homes Realty & Development Corp.

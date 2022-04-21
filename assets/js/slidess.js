@@ -204,8 +204,26 @@ window.addEventListener("load", function() {
 
 //show available unit..//
 
-function showAvailbleunit() {
-    var x = document.getElementById("availbeunit");
+function keanavailbleunit() {
+    var x = document.getElementById("keanavailbeunit");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+
+  function kenavailableunit() {
+    var x = document.getElementById("kenavailbeunit");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+
+  function mikeavailbleunit() {
+    var x = document.getElementById("mikeavailbeunit");
     if (x.style.display === "block") {
       x.style.display = "none";
     } else {
