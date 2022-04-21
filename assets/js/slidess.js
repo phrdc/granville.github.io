@@ -168,7 +168,6 @@ window.addEventListener("load", function() {
 	
 		// Set up big img element
 	var el = document.createElement("div"), prevBtn = document.createElement("div"), nextBtn = document.createElement("div");
-	
 
 			// image
 	el.innerHTML = "<img class='img-enlarged' id='enlarged-image' />";
@@ -176,7 +175,6 @@ window.addEventListener("load", function() {
 	el.onclick = function() {
 		unenlargeImg();
 	}
-	
 	
 			// prev / next buttons
 	prevBtn.innerHTML = "<span></span>";
@@ -195,8 +193,6 @@ window.addEventListener("load", function() {
 		nextImage();
 	}
 	
-	
-	
 	el.appendChild(prevBtn);
 	el.appendChild(nextBtn);
 	document.body.appendChild(el);
@@ -204,3 +200,35 @@ window.addEventListener("load", function() {
 	gallery_buttons = [prevBtn, nextBtn];
 	
 });
+
+
+//show available unit..//
+
+function showAvailbleunit() {
+    var x = document.getElementById("availbeunit");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+
+//g3 available units..//
+function showAvailbleunits() {
+    var x = document.getElementById("availbeunits");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }  
+
+  //crest available units..//
+function showAvailbleunitss() {
+    var x = document.getElementById("availbeunitss");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }  
