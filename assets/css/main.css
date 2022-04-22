@@ -2397,7 +2397,13 @@ section {
 }
 
 .features .tab-pane .avunits button:nth-child(2) {
-  width: 17.6%;
+  width: 42.6%;
+  margin-top: -46.5px;
+  margin-left: 58%;
+}
+
+.features .tab-pane .avunits button a{
+  color: #000;
 }
 
 .features .tab-pane .avunits button:hover {
@@ -2418,7 +2424,13 @@ section {
 }
 
 .featuress .tab-pane .avunits button:nth-child(2) {
-  width: 17.6%;
+  width: 42.6%;
+  margin-top: -46.5px;
+  margin-left: 58%;
+}
+
+.featuress .tab-pane .avunits button a{
+  color: #000;
 }
 
 .featuress .tab-pane .avunits button:hover {
@@ -2439,15 +2451,22 @@ section {
 }
 
 .featuresss .tab-pane .avunits button:nth-child(2) {
-  width: 17.6%;
+  width: 42.6%;
+  margin-top: -46.5px;
+  margin-left: 58%;
+}
+
+.featuresss .tab-pane .avunits button a{
+  color: #000;
 }
 
 .featuresss .tab-pane .avunits button:hover {
-  color: #000;
   background-color: transparent;
   border: 1px solid #b55043;
+  color: #000;
 }
- /*---*/
+
+/*---*/
 table {
   display: none;
 }
@@ -2460,16 +2479,16 @@ td {
 }
 
 @media (max-width:425px) {
-  .features .tab-pane .avunits h3 {
-    font-size: 25px;
+  .features .tab-pane .avunits button:nth-child(2) {
+    width: 62.6%;
   }
 
-  .featuress .tab-pane .avunits h3 {
-    font-size: 25px;
+  .featuress .tab-pane .avunits button:nth-child(2) {
+    width: 62.6%;
   }
 
-  .featuresss .tab-pane .avunits h3 {
-    font-size: 25px;
+  .featuresss .tab-pane .avunits button:nth-child(2) {
+    width: 62.6%;
   }
 
   th,
@@ -2549,7 +2568,7 @@ td {
 
 .gallery img {
   cursor: pointer;
-  margin: 65px 0px;
+  margin: 65px 0px 15px 0;
 }
 
 
