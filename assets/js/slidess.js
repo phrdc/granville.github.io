@@ -203,7 +203,7 @@ window.addEventListener("load", function() {
 
 
 //show available unit..//
-
+//kean//
 function keanavailbleunit() {
     var x = document.getElementById("keanavailbeunit");
     var y = document.getElementById("keanreserve");
@@ -216,6 +216,18 @@ function keanavailbleunit() {
     }
   }
 
+  function keanavailbleunits() {
+    var x = document.getElementById("keanavailbeunit");
+    var y = document.getElementById("keanreserves");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+      y.style.display = "none";
+    } else {
+      x.style.display = "block";
+      y.style.display = "block";
+    }
+  }
+//ken 
   function kenavailbleunit() {
     var x = document.getElementById("kenavailbeunit");
     var y = document.getElementById("kenreserve");
@@ -228,9 +240,33 @@ function keanavailbleunit() {
     }
   }
 
+  function kenavailbleunits() {
+    var x = document.getElementById("kenavailbeunit");
+    var y = document.getElementById("kenreserves");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+      y.style.display = "none";
+    } else {
+      x.style.display = "block";
+      y.style.display = "block";
+    }
+  }
+//mike
   function mikeavailbleunit() {
     var x = document.getElementById("mikeavailbeunit");
     var y = document.getElementById("mikereserve");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+      y.style.display = "none";
+    } else {
+      x.style.display = "block";
+      y.style.display = "block";
+    }
+  }
+
+  function mikeavailbleunits() {
+    var x = document.getElementById("mikeavailbeunit");
+    var y = document.getElementById("mikereserves");
     if (x.style.display === "block") {
       x.style.display = "none";
       y.style.display = "none";
@@ -251,12 +287,36 @@ function cindyavailbleunit() {
       x.style.display = "block";
       y.style.display = "block";
     }
-  }  
+  }
+  
+  function cindyavailbleunits() {
+    var x = document.getElementById("cindyavailbeunit");
+    var y = document.getElementById("cindyreserves");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+      y.style.display = "none";
+    } else {
+      x.style.display = "block";
+      y.style.display = "block";
+    }
+  } 
 
   //crest available units..//
   function matthewavailbleunit() {
     var x = document.getElementById("matthewavailbeunit");
     var y = document.getElementById("matthewreserve");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+      y.style.display = "none";
+    } else {
+      x.style.display = "block";
+      y.style.display = "block";
+    }
+  }  
+
+  function matthewavailbleunits() {
+    var x = document.getElementById("matthewavailbeunit");
+    var y = document.getElementById("matthewreserves");
     if (x.style.display === "block") {
       x.style.display = "none";
       y.style.display = "none";

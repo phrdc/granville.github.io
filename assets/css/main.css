@@ -2411,6 +2411,10 @@ section {
   border: 1px solid #f5c350;
 }
 
+.features .tab-pane .avunits .mobtab{
+  display: none;
+}
+
 /*-g3 available unit-*/
 .featuress .tab-pane .avunits button {
   font-size: 15px;
@@ -2436,6 +2440,10 @@ section {
 .featuress .tab-pane .avunits button:hover {
   background-color: transparent;
   border: 1px solid #55a67b;
+}
+
+.featuress .tab-pane .avunits .mobtab{
+  display: none;
 }
 
 /*-crest available unit-*/
@@ -2466,6 +2474,10 @@ section {
   color: #000;
 }
 
+.featuresss .tab-pane .avunits .mobtab{
+  display: none;
+}
+
 /*---*/
 table {
   display: none;
@@ -2479,25 +2491,110 @@ td {
 }
 
 @media (max-width:425px) {
+  .features .tab-pane .avunits .desktop{
+    display: none;
+  }
+
+  .features .tab-pane .avunits .mobtab{
+    display: block;
+    font-size: 13px;
+  }
+
   .features .tab-pane .avunits button:nth-child(2) {
-    width: 62.6%;
+    width: 41.6%;
+    margin-top: -43.5px;
+    margin-left: 58%;
+  }
+
+  /*---*/
+  .featuress .tab-pane .avunits .desktop{
+    display: none;
+  }
+
+  .featuress .tab-pane .avunits .mobtab{
+    display: block;
+    font-size: 13px;
   }
 
   .featuress .tab-pane .avunits button:nth-child(2) {
-    width: 62.6%;
+    width: 41.6%;
+    margin-top: -43.5px;
+    margin-left: 58%;
+  }
+
+  /*---*/
+  .featuresss .tab-pane .avunits .desktop{
+    display: none;
+  }
+
+  .featuresss .tab-pane .avunits .mobtab{
+    display: block;
+    font-size: 13px;
   }
 
   .featuresss .tab-pane .avunits button:nth-child(2) {
-    width: 62.6%;
+    width: 41.6%;
+    margin-top: -43.5px;
+    margin-left: 58%;
   }
 
   th,
   td {
-    font-size: 10px;
+    font-size: 11px;
   }
 }
 
+@media (min-width:768px) and (max-width: 990px) {
+  .features .tab-pane .avunits .desktop{
+    display: none;
+  }
 
+  .features .tab-pane .avunits .mobtab{
+    display: block;
+    font-size: 15px;
+  }
+
+  .features .tab-pane .avunits button:nth-child(2) {
+    width: 34.6%;
+    margin-top: -46.5px;
+    margin-left: 41%;
+  }
+
+  /*--*/
+  .featuress .tab-pane .avunits .desktop{
+    display: none;
+  }
+
+  .featuress .tab-pane .avunits .mobtab{
+    display: block;
+    font-size: 15px;
+  }
+  .featuress .tab-pane .avunits button:nth-child(2) {
+    width: 34.6%;
+    margin-top: -46.5px;
+    margin-left: 41%;
+  }
+
+  /*--*/
+  .featuresss .tab-pane .avunits .desktop{
+    display: none;
+  }
+
+  .featuresss .tab-pane .avunits .mobtab{
+    display: block;
+    font-size: 15px;
+  }
+  .featuresss .tab-pane .avunits button:nth-child(2) {
+    width: 34.6%;
+    margin-top: -46.5px;
+    margin-left: 41%;
+  }
+
+  th,
+  td {
+    font-size: 15px;
+  }
+}
 
 /*--------------------------------------------------------------
 # floor plan
