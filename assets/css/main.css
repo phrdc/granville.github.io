@@ -493,15 +493,24 @@ section {
   .navbar .dropdown a:hover:before,
   .navbar .dropdown:hover>a:before,
   .navbar .dropdown .active:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #55a67b;
     visibility: hidden;
+    transition: all 0.3s ease-in-out 0s;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out 0s;
   }
 
   .navbar .dropdown a:hover,
   .navbar .dropdown .active,
   .navbar .dropdown .active:focus,
   .navbar .dropdown:hover>a {
-    color: var(--color-white);
-    background: var(--color-secondary);
+    color: #55a67b;
   }
 
   .navbar .dropdown ul {
@@ -514,9 +523,12 @@ section {
     z-index: 99;
     opacity: 0;
     visibility: hidden;
-    background: var(--color-secondary);
+    background: #fff;
     transition: 0.3s;
+    border: 1px solid #000;
   }
+
+ 
 
   .navbar .dropdown ul li {
     min-width: 200px;
@@ -527,7 +539,7 @@ section {
     font-size: 15px;
     text-transform: none;
     font-weight: 400;
-    color: rgba(var(--color-white-rgb), 0.5);
+    color: #000;
   }
 
   .navbar .dropdown ul a i {
@@ -537,8 +549,8 @@ section {
   .navbar .dropdown ul a:hover,
   .navbar .dropdown ul .active:hover,
   .navbar .dropdown ul li:hover>a {
-    color: var(--color-white);
-    background: var(--color-primary);
+    color: #55a67b;
+    background: none;
   }
 
   .navbar .dropdown:hover>ul {
@@ -574,6 +586,10 @@ section {
 # Mobile Navigation
 --------------------------------------------------------------*/
 @media (max-width: 1279px) {
+  .nav-link{
+    padding: 0px;
+  }
+  
   .navbar {
     position: fixed;
     top: 0;
@@ -603,7 +619,7 @@ section {
     padding: 12px 20px;
     font-size: 16px;
     font-weight: 500;
-    color: rgba(var(--color-white-rgb), 0.7);
+    color: #000;
     white-space: nowrap;
     transition: 0.3s;
   }
@@ -619,17 +635,17 @@ section {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: var(--color-white);
+    color: #000;
   }
 
   .navbar .dropdown ul,
   .navbar .dropdown .dropdown ul {
     position: static;
     display: none;
-    padding: 10px 0;
-    margin: 10px 20px;
+    padding: 0px 0;
+    margin: 0px 15px;
     transition: all 0.5s ease-in-out;
-    border: 1px solid rgba(var(--color-secondary-light-rgb), 0.3);
+    background: transparent;
   }
 
   .navbar .dropdown>.dropdown-active,
@@ -1332,7 +1348,7 @@ section {
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 767px) {
   .features .tab-content .tab-pane .nav-tabs {
     margin-top: 10px;
   }
@@ -1567,7 +1583,7 @@ section {
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 767px) {
   .featuress .tab-content .tab-pane .nav-tabs {
     margin-top: 10px;
   }
@@ -1799,7 +1815,7 @@ section {
 }
 
 
-@media (max-width: 425px) {
+@media (max-width: 767px) {
   .featuresss .tab-content .tab-pane .nav-tabs {
     margin-top: 10px;
   }
@@ -2139,7 +2155,7 @@ section {
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 767px) {
   .carousel-container {
     max-width: 100%;
     max-height: max-content;
