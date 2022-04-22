@@ -206,47 +206,62 @@ window.addEventListener("load", function() {
 
 function keanavailbleunit() {
     var x = document.getElementById("keanavailbeunit");
+    var y = document.getElementById("keanreserve");
     if (x.style.display === "block") {
       x.style.display = "none";
+      y.style.display = "none";
     } else {
       x.style.display = "block";
+      y.style.display = "block";
     }
   }
 
-  function kenavailableunit() {
+  function kenavailbleunit() {
     var x = document.getElementById("kenavailbeunit");
+    var y = document.getElementById("kenreserve");
     if (x.style.display === "block") {
       x.style.display = "none";
+      y.style.display = "none";
     } else {
       x.style.display = "block";
+      y.style.display = "block";
     }
   }
 
   function mikeavailbleunit() {
     var x = document.getElementById("mikeavailbeunit");
+    var y = document.getElementById("mikereserve");
     if (x.style.display === "block") {
       x.style.display = "none";
+      y.style.display = "none";
     } else {
       x.style.display = "block";
+      y.style.display = "block";
     }
   }
 
 //g3 available units..//
-function showAvailbleunits() {
-    var x = document.getElementById("availbeunits");
+function cindyavailbleunit() {
+    var x = document.getElementById("cindyavailbeunit");
+    var y = document.getElementById("cindyreserve");
     if (x.style.display === "block") {
       x.style.display = "none";
+      y.style.display = "none";
     } else {
       x.style.display = "block";
+      y.style.display = "block";
     }
   }  
 
   //crest available units..//
-function showAvailbleunitss() {
-    var x = document.getElementById("availbeunitss");
+  function matthewavailbleunit() {
+    var x = document.getElementById("matthewavailbeunit");
+    var y = document.getElementById("matthewreserve");
     if (x.style.display === "block") {
       x.style.display = "none";
+      y.style.display = "none";
     } else {
       x.style.display = "block";
+      y.style.display = "block";
     }
   }  

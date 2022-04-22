@@ -528,7 +528,7 @@ section {
     border: 1px solid #000;
   }
 
- 
+
 
   .navbar .dropdown ul li {
     min-width: 200px;
@@ -586,10 +586,10 @@ section {
 # Mobile Navigation
 --------------------------------------------------------------*/
 @media (max-width: 1279px) {
-  .nav-link{
+  .nav-link {
     padding: 0px;
   }
-  
+
   .navbar {
     position: fixed;
     top: 0;
@@ -2385,41 +2385,69 @@ section {
 /*--------------------------------------------------------------
 # show available units
 --------------------------------------------------------------*/
-.features .tab-pane .avunits h3 {
-  font-weight: 600;
-  font-size: 30px;
+.features .tab-pane .avunits button {
+  font-size: 15px;
   color: var(--color-secondary);
+  background-color: #f5c350;
+  border: 1px solid #f5c350;
+  padding: 6px 20px;
+  font-family: cursive;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
-.features .tab-pane .avunits h3:hover {
-  cursor: pointer;
-  text-decoration: underline;
+.features .tab-pane .avunits button:nth-child(2) {
+  width: 17.6%;
+}
+
+.features .tab-pane .avunits button:hover {
+  background-color: transparent;
+  border: 1px solid #f5c350;
 }
 
 /*-g3 available unit-*/
-.featuress .tab-pane .avunits h3 {
-  font-weight: 600;
-  font-size: 30px;
+.featuress .tab-pane .avunits button {
+  font-size: 15px;
   color: var(--color-secondary);
+  background-color: #55a67b;
+  border: 1px solid #55a67b;
+  padding: 6px 20px;
+  font-family: cursive;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
-.featuress .tab-pane .avunits h3:hover {
-  cursor: pointer;
-  text-decoration: underline;
+.featuress .tab-pane .avunits button:nth-child(2) {
+  width: 17.6%;
+}
+
+.featuress .tab-pane .avunits button:hover {
+  background-color: transparent;
+  border: 1px solid #55a67b;
 }
 
 /*-crest available unit-*/
-.featuresss .tab-pane .avunits h3 {
-  font-weight: 600;
-  font-size: 30px;
-  color: var(--color-secondary);
+.featuresss .tab-pane .avunits button {
+  font-size: 15px;
+  color: #fff;
+  background-color: #b55043;
+  border: 1px solid #b55043;
+  padding: 6px 20px;
+  font-family: cursive;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
-.featuresss .tab-pane .avunits h3:hover {
-  cursor: pointer;
-  text-decoration: underline;
+.featuresss .tab-pane .avunits button:nth-child(2) {
+  width: 17.6%;
 }
 
+.featuresss .tab-pane .avunits button:hover {
+  color: #000;
+  background-color: transparent;
+  border: 1px solid #b55043;
+}
+ /*---*/
 table {
   display: none;
 }
