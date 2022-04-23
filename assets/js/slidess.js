@@ -302,9 +302,9 @@ function cindyavailbleunit() {
   } 
 
   //crest available units..//
-  function matthewavailbleunit() {
-    var x = document.getElementById("matthewavailbeunit");
-    var y = document.getElementById("matthewreserve");
+  function rafaelavailbleunit() {
+    var x = document.getElementById("rafaelavailbeunit");
+    var y = document.getElementById("rafaelreserve");
     if (x.style.display === "block") {
       x.style.display = "none";
       y.style.display = "none";
@@ -314,9 +314,9 @@ function cindyavailbleunit() {
     }
   }  
 
-  function matthewavailbleunits() {
-    var x = document.getElementById("matthewavailbeunit");
-    var y = document.getElementById("matthewreserves");
+  function rafaelavailbleunits() {
+    var x = document.getElementById("rafaelavailbeunit");
+    var y = document.getElementById("rafaelreserves");
     if (x.style.display === "block") {
       x.style.display = "none";
       y.style.display = "none";

@@ -2394,6 +2394,7 @@ section {
   font-family: cursive;
   font-weight: bold;
   margin-bottom: 10px;
+  border-radius: .25rem;
 }
 
 .features .tab-pane .avunits button:nth-child(2) {
@@ -2425,6 +2426,7 @@ section {
   font-family: cursive;
   font-weight: bold;
   margin-bottom: 10px;
+  border-radius: .25rem;
 }
 
 .featuress .tab-pane .avunits button:nth-child(2) {
@@ -2456,6 +2458,7 @@ section {
   font-family: cursive;
   font-weight: bold;
   margin-bottom: 10px;
+  border-radius: .25rem;
 }
 
 .featuresss .tab-pane .avunits button:nth-child(2) {
@@ -2751,4 +2754,52 @@ td {
     left: 10%;
     top: 45%;
   }
+}
+
+/*--*/
+.modal-backdrop {
+  width: 0 !important;
+  height: 0 !important;  
+}
+
+.modal-header {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 10px;
+  border-bottom: 1px solid #dee2e6;
+  border-top-left-radius: calc(.3rem - 1px);
+  border-top-right-radius: calc(.3rem - 1px);
+  background-color: #1A654C;
+}
+
+.modal-title {
+  margin-bottom: 0;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.btn-secondary:hover {
+  color: #1A654C;
+  background-color: transparent;
+  border-color: #1A654C;
+}
+
+.btn-secondary {
+  color: #fff;
+  background-color: #1A654C;
+  border-color: #1A654C;
+}
+
+.modal-footer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0px;
+  border-top: 1px solid #dee2e6;
+  border-bottom-right-radius: calc(.3rem - 1px);
+  border-bottom-left-radius: calc(.3rem - 1px);
 }
