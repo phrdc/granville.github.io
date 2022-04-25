@@ -2403,7 +2403,7 @@ section {
   margin-left: 58%;
 }
 
-.features .tab-pane .avunits button a{
+.features .tab-pane .avunits button a {
   color: #000;
 }
 
@@ -2412,7 +2412,7 @@ section {
   border: 1px solid #f5c350;
 }
 
-.features .tab-pane .avunits .mobtab{
+.features .tab-pane .avunits .mobtab {
   display: none;
 }
 
@@ -2435,7 +2435,7 @@ section {
   margin-left: 58%;
 }
 
-.featuress .tab-pane .avunits button a{
+.featuress .tab-pane .avunits button a {
   color: #000;
 }
 
@@ -2444,7 +2444,7 @@ section {
   border: 1px solid #55a67b;
 }
 
-.featuress .tab-pane .avunits .mobtab{
+.featuress .tab-pane .avunits .mobtab {
   display: none;
 }
 
@@ -2467,7 +2467,7 @@ section {
   margin-left: 58%;
 }
 
-.featuresss .tab-pane .avunits button a{
+.featuresss .tab-pane .avunits button a {
   color: #000;
 }
 
@@ -2477,7 +2477,7 @@ section {
   color: #000;
 }
 
-.featuresss .tab-pane .avunits .mobtab{
+.featuresss .tab-pane .avunits .mobtab {
   display: none;
 }
 
@@ -2494,11 +2494,11 @@ td {
 }
 
 @media (max-width:425px) {
-  .features .tab-pane .avunits .desktop{
+  .features .tab-pane .avunits .desktop {
     display: none;
   }
 
-  .features .tab-pane .avunits .mobtab{
+  .features .tab-pane .avunits .mobtab {
     display: block;
     font-size: 13px;
   }
@@ -2510,11 +2510,11 @@ td {
   }
 
   /*---*/
-  .featuress .tab-pane .avunits .desktop{
+  .featuress .tab-pane .avunits .desktop {
     display: none;
   }
 
-  .featuress .tab-pane .avunits .mobtab{
+  .featuress .tab-pane .avunits .mobtab {
     display: block;
     font-size: 13px;
   }
@@ -2526,11 +2526,11 @@ td {
   }
 
   /*---*/
-  .featuresss .tab-pane .avunits .desktop{
+  .featuresss .tab-pane .avunits .desktop {
     display: none;
   }
 
-  .featuresss .tab-pane .avunits .mobtab{
+  .featuresss .tab-pane .avunits .mobtab {
     display: block;
     font-size: 13px;
   }
@@ -2548,11 +2548,11 @@ td {
 }
 
 @media (min-width:768px) and (max-width: 990px) {
-  .features .tab-pane .avunits .desktop{
+  .features .tab-pane .avunits .desktop {
     display: none;
   }
 
-  .features .tab-pane .avunits .mobtab{
+  .features .tab-pane .avunits .mobtab {
     display: block;
     font-size: 15px;
   }
@@ -2564,14 +2564,15 @@ td {
   }
 
   /*--*/
-  .featuress .tab-pane .avunits .desktop{
+  .featuress .tab-pane .avunits .desktop {
     display: none;
   }
 
-  .featuress .tab-pane .avunits .mobtab{
+  .featuress .tab-pane .avunits .mobtab {
     display: block;
     font-size: 15px;
   }
+
   .featuress .tab-pane .avunits button:nth-child(2) {
     width: 34.6%;
     margin-top: -46.5px;
@@ -2579,14 +2580,15 @@ td {
   }
 
   /*--*/
-  .featuresss .tab-pane .avunits .desktop{
+  .featuresss .tab-pane .avunits .desktop {
     display: none;
   }
 
-  .featuresss .tab-pane .avunits .mobtab{
+  .featuresss .tab-pane .avunits .mobtab {
     display: block;
     font-size: 15px;
   }
+
   .featuresss .tab-pane .avunits button:nth-child(2) {
     width: 34.6%;
     margin-top: -46.5px;
@@ -2756,10 +2758,10 @@ td {
   }
 }
 
-/*--*/
+/*-modal-*/
 .modal-backdrop {
   width: 0 !important;
-  height: 0 !important;  
+  height: 0 !important;
 }
 
 .modal-header {
@@ -2802,4 +2804,14 @@ td {
   border-top: 1px solid #dee2e6;
   border-bottom-right-radius: calc(.3rem - 1px);
   border-bottom-left-radius: calc(.3rem - 1px);
+}
+
+@media (max-width:425px) {
+  .modal-dialog {
+    position: relative;
+    width: auto;
+    margin: .5rem;
+    pointer-events: none;
+    padding-top: 70vh;
+  }
 }
