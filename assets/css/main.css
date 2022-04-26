@@ -2388,10 +2388,9 @@ section {
 .features .tab-pane .avunits button {
   font-size: 15px;
   color: var(--color-secondary);
-  background-color: #f5c350;
-  border: 1px solid #f5c350;
+  background-color: #55a67b;
+  border: 1px solid #55a67b;
   padding: 6px 20px;
-  font-family: cursive;
   font-weight: bold;
   margin-bottom: 10px;
   border-radius: .25rem;
@@ -2409,7 +2408,7 @@ section {
 
 .features .tab-pane .avunits button:hover {
   background-color: transparent;
-  border: 1px solid #f5c350;
+  border: 1px solid #55a67b;
 }
 
 .features .tab-pane .avunits .mobtab {
@@ -2423,7 +2422,6 @@ section {
   background-color: #55a67b;
   border: 1px solid #55a67b;
   padding: 6px 20px;
-  font-family: cursive;
   font-weight: bold;
   margin-bottom: 10px;
   border-radius: .25rem;
@@ -2451,11 +2449,10 @@ section {
 /*-crest available unit-*/
 .featuresss .tab-pane .avunits button {
   font-size: 15px;
-  color: #fff;
-  background-color: #b55043;
-  border: 1px solid #b55043;
+  color: #000;
+  background-color: #55a67b;
+  border: 1px solid #55a67b;
   padding: 6px 20px;
-  font-family: cursive;
   font-weight: bold;
   margin-bottom: 10px;
   border-radius: .25rem;
@@ -2473,7 +2470,7 @@ section {
 
 .featuresss .tab-pane .avunits button:hover {
   background-color: transparent;
-  border: 1px solid #b55043;
+  border: 1px solid #55a67b;
   color: #000;
 }
 

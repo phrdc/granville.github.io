@@ -315,7 +315,7 @@ function cindyavailbleunit() {
   }  
 
   function rafaelavailbleunits() {
-    var x = document.getElementById("rafaelavailbeunit");
+    var x = document.getElementById("rafaelavailbeunits");
     var y = document.getElementById("rafaelreserves");
     if (x.style.display === "block") {
       x.style.display = "none";
