@@ -4,7 +4,7 @@
 // Enlarges images on click
 
 
-var gallery_info = {imgs: [], currentIndex: 0}, gallery_buttons;
+var gallery_info = {imgs: [1], currentIndex: 0}, gallery_buttons;
 
 
 function id(id) {
@@ -13,25 +13,7 @@ function id(id) {
 
 
 function displayImg(src) {
-		// actually displays the image
 	id("enlarged-image").src = src;
-	
-	
-		// update counter if applicable
-	if(gallery_info.imgs.length > 1) {
-		
-			// show buttons
-		for(var i = 0; i < gallery_buttons.length; i++) {
-			gallery_buttons[i].classList.remove("hidden");
-		}
-	}
-	else {
-			// hide buttons if theres only 1 image
-		for(var i = 0; i < gallery_buttons.length; i++) {
-			gallery_buttons[i].classList.add("hidden");
-		}
-	}
-	
 }
 
 
