@@ -407,7 +407,7 @@ section {
 
 .sticky .navbar .mobile-nav-bar {
   top: 22px;
-  visibility: hidden;
+  visibility: visible;
 }
 
 @media (max-width: 425px) {
