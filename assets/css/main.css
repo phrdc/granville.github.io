@@ -661,10 +661,9 @@ section {
     line-height: 0;
     transition: 0.5s;
     position: fixed;
-    top: 60px;
+    top: 25px;
     z-index: 9999;
     right: 20px;
-    visibility: hidden;
   }
 
   .mobile-nav-toggle.bi-x {
