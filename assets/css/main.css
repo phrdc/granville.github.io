@@ -391,6 +391,13 @@ section {
     margin-right: 50px;
   }
 }
+@media (max-width: 360px) {
+
+  .header .btn-getstarted,
+  .header .btn-getstarted:focus {
+    margin-right: 40px;
+  }
+}
 
 .sticky {
   position: fixed;
@@ -716,7 +723,7 @@ section {
 #hero .container {
   position: relative;
   text-align: center;
-  padding-bottom: 80px;
+  max-width: 100%!important;
 }
 
 #hero h1 {
@@ -734,6 +741,12 @@ section {
   font-size: 25px;
   letter-spacing: 2px;
   word-spacing: 10px;
+}
+
+#hero iframe {
+  width: 100%;
+  height: 611px;
+  pointer-events: none;
 }
 
 #hero .play-btn {
@@ -808,15 +821,43 @@ section {
   border-radius: 0;
 }
 
-@media (min-width: 1024px) {
+@media only screen and (max-width: 1440px) {
   #hero {
     background-attachment: fixed;
+    height: 60vh;
+  }
+  #hero iframe {
+    height: 460px;
+    width: 100%;
   }
 }
 
-@media (max-width: 798px) {
+@media only screen and (max-width: 1366px) {
   #hero {
-    height: 55vh;
+    background-attachment: fixed;
+    height: 80vh;
+  }
+  #hero iframe {
+    height: 430px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  #hero {
+    background-attachment: fixed;
+    height: 50vh;
+  }
+  #hero iframe {
+    height: 325px;
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 914px) {
+  #hero {
+    height: 80vh;
   }
 
   #hero h1 {
@@ -828,6 +869,33 @@ section {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 912px) {
+  #hero {
+    height: 35vh;
+  }
+
+  #hero iframe {
+    height: 290px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero {
+    height: 35vh;
+  }
+}
+
+@media (max-width: 717px) {
+  #hero {
+    height: 60vh;
+  }
+  #hero iframe {
+    height: 225px;
+    width: 100%;
   }
 }
 
@@ -849,15 +917,157 @@ section {
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 540px) {
+  #hero {
+    height: 45vh;
+  }
+  #hero iframe {
+    height: 165px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 414px) {
+  #hero {
+    height: 45vh;
+  }
   #hero .container {
-    padding-bottom: 30px;
+    margin-bottom: 35px;
+    padding-bottom: 0px!important;
+  }
+  #hero .col {
+    flex: 0 0 auto;
+    width: 100%;
+    margin: 10px 0px;
+  }
+  #hero .col-7 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  #hero iframe {
+    height: 220px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 393px) {
+  #hero {
+    height: 45vh;
+  }
+  #hero .container {
+    margin-bottom: 35px;
+    padding-bottom: 0px!important;
+  }
+  #hero .col {
+    flex: 0 0 auto;
+    width: 100%;
+    margin: 10px 0px;
+  }
+  #hero .col-7 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  #hero iframe {
+    height: 210px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 390px) {
+  #hero {
+    height: 45vh;
+  }
+  #hero .container {
+    margin-bottom: 35px;
+    padding-bottom: 0px!important;
+  }
+  #hero .col {
+    flex: 0 0 auto;
+    width: 100%;
+    margin: 10px 0px;
+  }
+  #hero .col-7 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  #hero iframe {
+    height: 205px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 375px) {
+  #hero {
+    height: 55vh;
+  }
+  #hero .container {
+    margin-bottom: 35px;
+    padding-bottom: 0px!important;
+  }
+  #hero .col {
+    flex: 0 0 auto;
+    width: 100%;
+    margin: 10px 0px;
+  }
+  #hero .col-7 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  #hero iframe {
+    height: 200px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 360px) {
+  #hero {
+    height: 50vh;
+  }
+  #hero .container {
+    margin-bottom: 35px;
+    padding-bottom: 0px!important;
+  }
+  #hero .col {
+    flex: 0 0 auto;
+    width: 100%;
+    margin: 10px 0px;
+  }
+  #hero .col-7 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  #hero iframe {
+    height: 190px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 280px) {
+  #hero {
+    height: 45vh;
+  }
+  #hero .container {
+    margin-bottom: 35px;
+    padding-bottom: 0px!important;
+  }
+  #hero .col {
+    flex: 0 0 auto;
+    width: 100%;
+    margin: 10px 0px;
+  }
+  #hero .col-7 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  #hero iframe {
+    height: 145px;
+    width: 100%;
   }
 }
 
 @media (max-width: 1024px) {
   #hero .container {
-    padding-bottom: 50px;
+    padding-bottom: 10px;
   }
 }
 

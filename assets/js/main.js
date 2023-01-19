@@ -85,7 +85,6 @@ document.addEventListener('DOMContentLoaded', () => {
       behavior: 'smooth'
     });
   }
-
   /**
    * Fires the scrollto function on click to links .scrollto
    */
